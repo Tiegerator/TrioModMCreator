@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "erdeunten",
-    "textureTop": "toll",
-    "textureLeft": "haraldgras",
-    "textureFront": "haraldgras",
-    "textureRight": "haraldgras",
-    "textureBack": "haraldgras",
+    "texture": "retroplanks",
+    "textureTop": "retroplanks",
+    "textureLeft": "retroplanks",
+    "textureFront": "retroplanks",
+    "textureRight": "retroplanks",
+    "textureBack": "retroplanks",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Gras A",
+    "name": "Retro Planks",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:DreckA"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "WOOD"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -103,11 +103,7 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

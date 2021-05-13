@@ -2,23 +2,18 @@
 package net.mcreator.triomodmcreator.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.util.Direction;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.client.renderer.RenderTypeLookup;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.LeavesBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.triomodmcreator.itemgroup.SuperDuperCreativeTabItemGroup;
 import net.mcreator.triomodmcreator.TriomodmcreatorModElements;
 
 import java.util.List;
@@ -29,31 +24,19 @@ public class BlueLeaaveBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:blue_leaave")
 	public static final Block block = null;
 	public BlueLeaaveBlock(TriomodmcreatorModElements instance) {
-		super(instance, 2);
+		super(instance, 7);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+		elements.items.add(
+				() -> new BlockItem(block, new Item.Properties().group(SuperDuperCreativeTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
-	}
-	public static class CustomBlock extends Block {
+	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.VINE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
-					.setOpaque((bs, br, bp) -> false));
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.VINE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid());
 			setRegistryName("blue_leaave");
-		}
-
-		@OnlyIn(Dist.CLIENT)
-		public boolean isSideInvisible(BlockState state, BlockState adjacentBlockState, Direction side) {
-			return adjacentBlockState.getBlock() == this ? true : super.isSideInvisible(state, adjacentBlockState, side);
 		}
 
 		@Override

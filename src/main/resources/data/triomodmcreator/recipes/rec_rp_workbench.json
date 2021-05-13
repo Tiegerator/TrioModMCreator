@@ -1,0 +1,26 @@
+{
+  "group": "triomodmcreator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "1": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "2": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "3": {
+      "item": "triomodmcreator:retro_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

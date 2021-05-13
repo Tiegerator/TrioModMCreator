@@ -10,7 +10,6 @@ import net.minecraft.state.StateContainer;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
@@ -20,6 +19,7 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.triomodmcreator.itemgroup.SuperDuperCreativeTabItemGroup;
 import net.mcreator.triomodmcreator.TriomodmcreatorModElements;
 
 import java.util.List;
@@ -30,14 +30,14 @@ public class BlueLogBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:blue_log")
 	public static final Block block = null;
 	public BlueLogBlock(TriomodmcreatorModElements instance) {
-		super(instance, 1);
+		super(instance, 5);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+		elements.items.add(
+				() -> new BlockItem(block, new Item.Properties().group(SuperDuperCreativeTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;

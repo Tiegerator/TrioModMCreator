@@ -8,17 +8,18 @@
     "textureFront": "blueleaves",
     "textureRight": "blueleaves",
     "textureBack": "blueleaves",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Leaves",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
-    "connectedSides": true,
+    "hasTransparency": false,
+    "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
@@ -39,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:SuperDuperCreativeTab"
     },
     "destroyTool": "Not specified",
     "customDrop": {

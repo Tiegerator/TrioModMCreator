@@ -2,19 +2,20 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "erdeunten",
-    "textureTop": "toll",
-    "textureLeft": "haraldgras",
-    "textureFront": "haraldgras",
-    "textureRight": "haraldgras",
-    "textureBack": "haraldgras",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "retroplanks",
+    "textureTop": "retroplanks",
+    "textureLeft": "retroplanks",
+    "textureFront": "retroplanks",
+    "textureRight": "retroplanks",
+    "textureBack": "retroplanks",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Stairs",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -32,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Gras A",
+    "name": "Retro Planks Stairs",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,7 +44,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:DreckA"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

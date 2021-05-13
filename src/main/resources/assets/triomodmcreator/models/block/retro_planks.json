@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "triomodmcreator:blocks/retroplanks",
+    "up": "triomodmcreator:blocks/retroplanks",
+    "north": "triomodmcreator:blocks/retroplanks",
+    "east": "triomodmcreator:blocks/retroplanks",
+    "south": "triomodmcreator:blocks/retroplanks",
+    "west": "triomodmcreator:blocks/retroplanks",
+    "particle": "triomodmcreator:blocks/retroplanks"
+  }
+}

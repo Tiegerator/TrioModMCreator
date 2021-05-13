@@ -5,7 +5,6 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
@@ -13,6 +12,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.triomodmcreator.itemgroup.SuperDuperCreativeTabItemGroup;
 import net.mcreator.triomodmcreator.TriomodmcreatorModElements;
 
 import java.util.List;
@@ -23,14 +23,14 @@ public class BlueDirtBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:blue_dirt")
 	public static final Block block = null;
 	public BlueDirtBlock(TriomodmcreatorModElements instance) {
-		super(instance, 6);
+		super(instance, 3);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+		elements.items.add(
+				() -> new BlockItem(block, new Item.Properties().group(SuperDuperCreativeTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
