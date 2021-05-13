@@ -19,11 +19,11 @@ import java.util.List;
 import java.util.Collections;
 
 @TriomodmcreatorModElements.ModElement.Tag
-public class BlueGrassBlock extends TriomodmcreatorModElements.ModElement {
-	@ObjectHolder("triomodmcreator:blue_grass")
+public class RetroPlanksBlock extends TriomodmcreatorModElements.ModElement {
+	@ObjectHolder("triomodmcreator:retro_planks")
 	public static final Block block = null;
-	public BlueGrassBlock(TriomodmcreatorModElements instance) {
-		super(instance, 4);
+	public RetroPlanksBlock(TriomodmcreatorModElements instance) {
+		super(instance, 6);
 	}
 
 	@Override
@@ -34,8 +34,8 @@ public class BlueGrassBlock extends TriomodmcreatorModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
-			setRegistryName("blue_grass");
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			setRegistryName("retro_planks");
 		}
 
 		@Override
@@ -43,7 +43,7 @@ public class BlueGrassBlock extends TriomodmcreatorModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(BlueDirtBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 }

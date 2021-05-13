@@ -1,0 +1,13 @@
+{
+  "group": "triomodmcreator",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "triomodmcreator:blue_log"
+    }
+  ],
+  "result": {
+    "item": "triomodmcreator:retro_planks",
+    "count": 4
+  }
+}

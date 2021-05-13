@@ -1,0 +1,24 @@
+{
+  "group": "triomodmcreator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "4": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "triomodmcreator:retro_gleve",
+    "count": 1
+  }
+}

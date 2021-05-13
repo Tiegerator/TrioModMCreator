@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "triomodmcreator:blocks/retroplanks",
+    "top": "triomodmcreator:blocks/retroplanks",
+    "side": "triomodmcreator:blocks/retroplanks"
+  }
+}

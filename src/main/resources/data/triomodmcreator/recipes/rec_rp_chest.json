@@ -1,0 +1,39 @@
+{
+  "group": "triomodmcreator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "1": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "2": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "3": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "5": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "6": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "7": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "8": {
+      "item": "triomodmcreator:retro_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:chest",
+    "count": 1
+  }
+}

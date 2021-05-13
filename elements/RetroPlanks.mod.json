@@ -2,20 +2,19 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "blueleaves",
-    "textureTop": "blueleaves",
-    "textureLeft": "blueleaves",
-    "textureFront": "blueleaves",
-    "textureRight": "blueleaves",
-    "textureBack": "blueleaves",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "retroplanks",
+    "textureTop": "retroplanks",
+    "textureLeft": "retroplanks",
+    "textureFront": "retroplanks",
+    "textureRight": "retroplanks",
+    "textureBack": "retroplanks",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Leaves",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Retro Leave",
+    "name": "Retro Planks",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -53,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "LEAVES"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -73,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "VINE"
+      "value": "WOOD"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -104,11 +103,7 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "blueleaves",
-    "textureTop": "blueleaves",
-    "textureLeft": "blueleaves",
-    "textureFront": "blueleaves",
-    "textureRight": "blueleaves",
-    "textureBack": "blueleaves",
+    "texture": "retroplanks",
+    "textureTop": "retroplanks",
+    "textureLeft": "retroplanks",
+    "textureFront": "retroplanks",
+    "textureRight": "retroplanks",
+    "textureBack": "retroplanks",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -15,7 +15,7 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Leaves",
+    "blockBase": "Stairs",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Retro Leave",
+    "name": "Retro Planks Stairs",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -53,7 +53,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "LEAVES"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -73,7 +73,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "VINE"
+      "value": "GROUND"
     },
     "luminance": 0,
     "unbreakable": false,
