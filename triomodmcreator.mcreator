@@ -98,16 +98,6 @@
       "registry_name": "dirt_blocks"
     },
     {
-      "name": "RetroOre",
-      "type": "block",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "retro_ore",
-      "path": "~/Blocks"
-    },
-    {
       "name": "RetroGem",
       "type": "item",
       "sortid": 10,
@@ -125,6 +115,16 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "super_duper_creative_tab"
+    },
+    {
+      "name": "RetroOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_ore",
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -151,6 +151,10 @@
         "children": []
       },
       {
+        "name": "Items",
+        "children": []
+      },
+      {
         "name": "Tools",
         "children": []
       },
@@ -168,10 +172,6 @@
       },
       {
         "name": "Entity",
-        "children": []
-      },
-      {
-        "name": "Items",
         "children": []
       }
     ]
