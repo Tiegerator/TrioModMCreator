@@ -4,29 +4,29 @@ package net.mcreator.triomodmcreator.block;
 import net.minecraft.block.material.Material;
 
 @TriomodmcreatorModElements.ModElement.Tag
-public class RetroPlanksBlock extends TriomodmcreatorModElements.ModElement {
+public class BaumABlock extends TriomodmcreatorModElements.ModElement {
 
-	@ObjectHolder("triomodmcreator:retro_planks")
+	@ObjectHolder("triomodmcreator:baum_a")
 	public static final Block block = null;
 
-	public RetroPlanksBlock(TriomodmcreatorModElements instance) {
-		super(instance, 6);
+	public BaumABlock(TriomodmcreatorModElements instance) {
+		super(instance, 9);
 
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(
-				() -> new BlockItem(block, new Item.Properties().group(SuperDuperCreativeTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
 
 	public static class CustomBlock extends Block {
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.WOOD).hardnessAndResistance(2f, 10f).setLightLevel(s -> 0));
 
-			setRegistryName("retro_planks");
+			setRegistryName("baum_a");
 		}
 
 		@Override
