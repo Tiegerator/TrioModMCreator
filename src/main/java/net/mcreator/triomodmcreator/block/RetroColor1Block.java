@@ -4,13 +4,13 @@ package net.mcreator.triomodmcreator.block;
 import net.minecraft.block.material.Material;
 
 @TriomodmcreatorModElements.ModElement.Tag
-public class RetroPlanksBlock extends TriomodmcreatorModElements.ModElement {
+public class RetroColor1Block extends TriomodmcreatorModElements.ModElement {
 
-	@ObjectHolder("triomodmcreator:retro_planks")
+	@ObjectHolder("triomodmcreator:retro_color_1")
 	public static final Block block = null;
 
-	public RetroPlanksBlock(TriomodmcreatorModElements instance) {
-		super(instance, 6);
+	public RetroColor1Block(TriomodmcreatorModElements instance) {
+		super(instance, 22);
 
 	}
 
@@ -24,10 +24,10 @@ public class RetroPlanksBlock extends TriomodmcreatorModElements.ModElement {
 	public static class CustomBlock extends Block {
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(0)
-					.harvestTool(ToolType.AXE).setRequiresTool());
+			super(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.BONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
+					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool());
 
-			setRegistryName("retro_planks");
+			setRegistryName("retro_color_1");
 		}
 
 		@Override

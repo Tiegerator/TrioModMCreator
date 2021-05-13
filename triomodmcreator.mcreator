@@ -274,6 +274,75 @@
       "ids": {},
       "registry_name": "h_araldschwert",
       "path": "~/Tools"
+    },
+    {
+      "name": "RetroColor1",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_color_1",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RecRpStairs",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_rp_stairs",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroColor2",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_color_2",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Retrocolor4",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retrocolor_4",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Retrocolor3",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retrocolor_3",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RecRpStairs2",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_rp_stairs_2",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ValidSpawnBlocks",
+      "type": "tag",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "valid_spawn_blocks"
     }
   ],
   "variable_elements": [],
@@ -286,7 +355,6 @@
       "item.triomodmcreator.retro_gleve": "Retro Gleve",
       "block.triomodmcreator.blue_grass": "Retro Grass",
       "block.triomodmcreator.blue_leaave": "Retro Leave",
-      "item.triomodmcreator.h_araldschwert": "H Araldschwert",
       "block.triomodmcreator.retro_ore": "Retro Ore",
       "block.triomodmcreator.blue_log": "Retro Log",
       "block.triomodmcreator.fickdich_m_creator": "Gras A",
@@ -295,10 +363,8 @@
       "block.triomodmcreator.blatter_a": "Blatter A",
       "block.triomodmcreator.haraldium": "Haraldium",
       "biome.triomodmcreator.retro_biom": "Retro Biom",
-      "block.triomodmcreator.h_araldium_block": "Haraldium Block",
       "block.triomodmcreator.baum_a": "Baum A",
-      "block.triomodmcreator.retro_planks_stairs": "Retro Planks Stairs",
-      "item.triomodmcreator.haraldiumbarren": "Haraldiumbarren"
+      "block.triomodmcreator.retro_planks_stairs": "Retro Planks Stairs"
     }
   },
   "foldersRoot": {

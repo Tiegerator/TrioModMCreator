@@ -1,0 +1,33 @@
+{
+  "group": "triomodmcreator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "3": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "4": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "6": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "7": {
+      "item": "triomodmcreator:retro_planks"
+    },
+    "8": {
+      "item": "triomodmcreator:retro_planks"
+    }
+  },
+  "result": {
+    "item": "triomodmcreator:retro_planks_stairs",
+    "count": 4
+  }
+}

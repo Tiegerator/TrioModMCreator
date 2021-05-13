@@ -6,15 +6,15 @@
     "items": [],
     "blocks": [
       {
-        "value": "CUSTOM:BlueLeaave"
+        "value": "CUSTOM:FickdichMCreator"
       },
       {
-        "value": "CUSTOM:BlatterA"
+        "value": "CUSTOM:BlueGrass"
       }
     ],
     "functions": [],
     "entities": [],
-    "name": "leaves",
+    "name": "valid_spawn",
     "namespace": "minecraft"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "triomodmcreator:blocks/retrocolor2",
+    "up": "triomodmcreator:blocks/retrocolor2",
+    "north": "triomodmcreator:blocks/retrocolor2",
+    "east": "triomodmcreator:blocks/retrocolor2",
+    "south": "triomodmcreator:blocks/retrocolor2",
+    "west": "triomodmcreator:blocks/retrocolor2",
+    "particle": "triomodmcreator:blocks/retrocolor2"
+  }
+}

@@ -2,20 +2,19 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "retroplanks",
-    "textureTop": "retroplanks",
-    "textureLeft": "retroplanks",
-    "textureFront": "retroplanks",
-    "textureRight": "retroplanks",
-    "textureBack": "retroplanks",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "retrocolor4",
+    "textureTop": "retrocolor4",
+    "textureLeft": "retrocolor4",
+    "textureFront": "retrocolor4",
+    "textureRight": "retrocolor4",
+    "textureBack": "retrocolor4",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Stairs",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Retro Planks Stairs",
+    "name": "Retrocolor 4",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -42,7 +41,7 @@
     "creativeTab": {
       "value": "CUSTOM:SuperDuperCreativeTab"
     },
-    "destroyTool": "axe",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -53,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "WOOD"
+      "value": "MISCELLANEOUS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -73,11 +72,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "BONE"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
