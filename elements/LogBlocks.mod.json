@@ -7,6 +7,9 @@
     "blocks": [
       {
         "value": "CUSTOM:BlueLog"
+      },
+      {
+        "value": "CUSTOM:BaumA"
       }
     ],
     "functions": [],

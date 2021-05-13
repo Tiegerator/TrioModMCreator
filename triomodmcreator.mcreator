@@ -244,6 +244,75 @@
       "ids": {},
       "registry_name": "haraldium",
       "path": "~/Blocks"
+    },
+    {
+      "name": "RetroColor1",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_color_1",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RetroColor2",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_color_2",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Retrocolor3",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retrocolor_3",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Retrocolor4",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retrocolor_4",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ValidSpawnBlocks",
+      "type": "tag",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "valid_spawn_blocks"
+    },
+    {
+      "name": "RecRpStairs",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_rp_stairs",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecRpStairs2",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_rp_stairs_2",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -251,11 +320,24 @@
   "language_map": {
     "en_us": {
       "block.triomodmcreator.blue_dirt": "Retro Dirt",
+      "itemGroup.tabsuper_duper_creative_tab": "Super Duper Creative Tab",
+      "block.triomodmcreator.retro_planks": "Retro Planks",
       "block.triomodmcreator.blue_grass": "Retro Grass",
+      "item.triomodmcreator.retro_gleve": "Retro Gleve",
       "block.triomodmcreator.blue_leaave": "Retro Leave",
+      "block.triomodmcreator.retrocolor_4": "Retrocolor 4",
+      "block.triomodmcreator.retrocolor_3": "Retrocolor 3",
+      "block.triomodmcreator.retro_color_2": "Retro Color 2",
+      "block.triomodmcreator.retro_ore": "Retro Ore",
+      "block.triomodmcreator.retro_color_1": "Retro Color 1",
       "block.triomodmcreator.fickdich_m_creator": "Gras A",
       "block.triomodmcreator.blue_log": "Retro Log",
+      "item.triomodmcreator.retro_gem": "Retro Gem",
       "block.triomodmcreator.dreck_a": "Dreck A",
+      "block.triomodmcreator.blatter_a": "Blatter A",
+      "block.triomodmcreator.haraldium": "Haraldium",
+      "biome.triomodmcreator.retro_biom": "Retro Biom",
+      "block.triomodmcreator.baum_a": "Baum A",
       "block.triomodmcreator.retro_planks_stairs": "Retro Planks Stairs"
     }
   },
