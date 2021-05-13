@@ -371,6 +371,26 @@
       "path": "~/Armor"
     },
     {
+      "name": "RecShoe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_shoe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecLeggings",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_leggings",
+      "path": "~/Recipes"
+    },
+    {
       "name": "RecRetroHelmet",
       "type": "recipe",
       "sortid": 31,
@@ -391,24 +411,14 @@
       "path": "~/Recipes"
     },
     {
-      "name": "RecLeggings",
-      "type": "recipe",
-      "sortid": 33,
+      "name": "Harald",
+      "type": "mob",
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rec_leggings",
-      "path": "~/Recipes"
-    },
-    {
-      "name": "RecShoe",
-      "type": "recipe",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rec_shoe",
-      "path": "~/Recipes"
+      "registry_name": "harald",
+      "path": "~/Entity"
     }
   ],
   "variable_elements": [],
@@ -446,24 +456,15 @@
       "block.triomodmcreator.retrocolor_4": "Retrocolor 4",
       "block.triomodmcreator.retrocolor_3": "Retrocolor 3",
       "item.triomodmcreator.h_araldschwert": "H Araldschwert",
-      "subtitles.gameboy_move": "",
-      "item.triomodmcreator.gameboy_spawn_egg": "Gameboy Spawn Egg",
-      "subtitles.gameboy_hit": "",
       "block.triomodmcreator.retro_ore": "Retro Ore",
-      "entity.triomodmcreator.gameboy": "Gameboy",
       "block.triomodmcreator.dreck_a": "Dreck A",
-      "subtitles.missingno": "",
       "biome.triomodmcreator.retro_biom": "Retro Biom",
-      "item.triomodmcreator.retro_armor_chestplate": "Retro Chestplate",
       "block.triomodmcreator.baum_a": "Baum A",
       "itemGroup.tabsuper_duper_creative_tab": "Super Duper Creative Tab",
       "block.triomodmcreator.blue_dirt": "Retro Dirt",
       "block.triomodmcreator.blue_grass": "Retro Grass",
-      "item.triomodmcreator.retro_armor_boots": "Retro Shoe",
-      "item.triomodmcreator.retro_armor_leggings": "Retro Leggings",
       "block.triomodmcreator.retro_color_2": "Retro Color 2",
       "block.triomodmcreator.retro_color_1": "Retro Color 1",
-      "item.triomodmcreator.retro_armor_helmet": "Retro Helm",
       "block.triomodmcreator.fickdich_m_creator": "Gras A",
       "block.triomodmcreator.blue_log": "Retro Log",
       "item.triomodmcreator.retro_gem": "Retro Gem",

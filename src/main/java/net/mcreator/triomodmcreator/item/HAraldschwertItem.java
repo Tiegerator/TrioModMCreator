@@ -1,29 +1,21 @@
 
 package net.mcreator.triomodmcreator.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.triomodmcreator.TriomodmcreatorModElements;
-
 @TriomodmcreatorModElements.ModElement.Tag
 public class HAraldschwertItem extends TriomodmcreatorModElements.ModElement {
+
 	@ObjectHolder("triomodmcreator:h_araldschwert")
 	public static final Item block = null;
+
 	public HAraldschwertItem(TriomodmcreatorModElements instance) {
 		super(instance, 24);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new PickaxeItem(new IItemTier() {
+		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 750;
 			}
 
 			public float getEfficiency() {
@@ -31,7 +23,7 @@ public class HAraldschwertItem extends TriomodmcreatorModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 8f;
 			}
 
 			public int getHarvestLevel() {
@@ -39,13 +31,15 @@ public class HAraldschwertItem extends TriomodmcreatorModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(HaraldiumbarrenItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 3, -3f, new Item.Properties().group(SuperDuperCreativeTabItemGroup.tab).isImmuneToFire()) {
+
 		}.setRegistryName("h_araldschwert"));
 	}
+
 }
