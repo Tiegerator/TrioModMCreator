@@ -19,11 +19,11 @@ import java.util.List;
 import java.util.Collections;
 
 @TriomodmcreatorModElements.ModElement.Tag
-public class BlueGrassBlock extends TriomodmcreatorModElements.ModElement {
-	@ObjectHolder("triomodmcreator:blue_grass")
+public class HaraldiumBlock extends TriomodmcreatorModElements.ModElement {
+	@ObjectHolder("triomodmcreator:haraldium")
 	public static final Block block = null;
-	public BlueGrassBlock(TriomodmcreatorModElements instance) {
-		super(instance, 5);
+	public HaraldiumBlock(TriomodmcreatorModElements instance) {
+		super(instance, 10);
 	}
 
 	@Override
@@ -35,7 +35,7 @@ public class BlueGrassBlock extends TriomodmcreatorModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
-			setRegistryName("blue_grass");
+			setRegistryName("haraldium");
 		}
 
 		@Override
@@ -43,7 +43,7 @@ public class BlueGrassBlock extends TriomodmcreatorModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(BlueDirtBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 }

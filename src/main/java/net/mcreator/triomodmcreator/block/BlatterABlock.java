@@ -2,12 +2,17 @@
 package net.mcreator.triomodmcreator.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
@@ -19,11 +24,11 @@ import java.util.List;
 import java.util.Collections;
 
 @TriomodmcreatorModElements.ModElement.Tag
-public class BlueGrassBlock extends TriomodmcreatorModElements.ModElement {
-	@ObjectHolder("triomodmcreator:blue_grass")
+public class BlatterABlock extends TriomodmcreatorModElements.ModElement {
+	@ObjectHolder("triomodmcreator:blatter_a")
 	public static final Block block = null;
-	public BlueGrassBlock(TriomodmcreatorModElements instance) {
-		super(instance, 5);
+	public BlatterABlock(TriomodmcreatorModElements instance) {
+		super(instance, 9);
 	}
 
 	@Override
@@ -32,10 +37,17 @@ public class BlueGrassBlock extends TriomodmcreatorModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public void clientLoad(FMLClientSetupEvent event) {
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
+	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
-			setRegistryName("blue_grass");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
+					.setOpaque((bs, br, bp) -> false));
+			setRegistryName("blatter_a");
 		}
 
 		@Override
@@ -43,7 +55,7 @@ public class BlueGrassBlock extends TriomodmcreatorModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(BlueDirtBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 }

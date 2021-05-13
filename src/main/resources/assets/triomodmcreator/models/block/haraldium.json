@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "triomodmcreator:blocks/trash",
+    "up": "triomodmcreator:blocks/trash",
+    "north": "triomodmcreator:blocks/trash",
+    "east": "triomodmcreator:blocks/trash",
+    "south": "triomodmcreator:blocks/trash",
+    "west": "triomodmcreator:blocks/trash",
+    "particle": "triomodmcreator:blocks/trash"
+  }
+}

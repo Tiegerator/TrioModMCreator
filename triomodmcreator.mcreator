@@ -96,12 +96,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dirt_blocks"
+    },
+    {
+      "name": "BaumA",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baum_a",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BlatterA",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blatter_a",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Haraldium",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "haraldium",
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.triomodmcreator.fickdich_m_creator": "Gras A",
+      "block.triomodmcreator.blue_log": "Retro Log",
+      "block.triomodmcreator.blue_dirt": "Retro Dirt",
+      "block.triomodmcreator.dreck_a": "Dreck A",
+      "block.triomodmcreator.blue_grass": "Retro Grass",
+      "block.triomodmcreator.blue_leaave": "Retro Leave",
+      "block.triomodmcreator.blatter_a": "Blatter A",
+      "block.triomodmcreator.haraldium": "Haraldium",
+      "biome.triomodmcreator.retro_biom": "Retro Biom",
+      "block.triomodmcreator.baum_a": "Baum A"
+    }
   },
   "foldersRoot": {
     "name": "~",

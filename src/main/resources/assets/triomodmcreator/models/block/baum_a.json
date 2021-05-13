@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "triomodmcreator:blocks/log_top",
+    "up": "triomodmcreator:blocks/log_top",
+    "north": "triomodmcreator:blocks/log_side",
+    "east": "triomodmcreator:blocks/log_side",
+    "south": "triomodmcreator:blocks/log_side",
+    "west": "triomodmcreator:blocks/log_side",
+    "particle": "triomodmcreator:blocks/log_top"
+  }
+}
