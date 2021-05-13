@@ -7,9 +7,11 @@
   "block.triomodmcreator.blue_leaave": "Retro Leave",
   "block.triomodmcreator.retrocolor_4": "Retrocolor 4",
   "block.triomodmcreator.retrocolor_3": "Retrocolor 3",
+  "item.triomodmcreator.gameboy_spawn_egg": "Gameboy Spawn Egg",
   "block.triomodmcreator.retro_color_2": "Retro Color 2",
   "block.triomodmcreator.retro_ore": "Retro Ore",
   "block.triomodmcreator.retro_color_1": "Retro Color 1",
+  "entity.triomodmcreator.gameboy": "Gameboy",
   "block.triomodmcreator.fickdich_m_creator": "Gras A",
   "block.triomodmcreator.blue_log": "Retro Log",
   "item.triomodmcreator.retro_gem": "Retro Gem",
@@ -18,5 +20,6 @@
   "block.triomodmcreator.haraldium": "Haraldium",
   "biome.triomodmcreator.retro_biom": "Retro Biom",
   "block.triomodmcreator.baum_a": "Baum A",
-  "block.triomodmcreator.retro_planks_stairs": "Retro Planks Stairs"
+  "block.triomodmcreator.retro_planks_stairs": "Retro Planks Stairs",
+  "item.triomodmcreator.haraldiumbarren": "Haraldiumbarren"
 }

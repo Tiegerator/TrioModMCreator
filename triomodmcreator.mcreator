@@ -110,7 +110,7 @@
       "name": "RetroOre",
       "type": "block",
       "sortid": 8,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "retro_ore",
@@ -120,7 +120,7 @@
       "name": "RetroPlanks",
       "type": "block",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "retro_planks",
@@ -149,7 +149,7 @@
       "name": "RetroGleve",
       "type": "tool",
       "sortid": 16,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "retro_gleve",
@@ -209,7 +209,7 @@
       "name": "BlatterA",
       "type": "block",
       "sortid": 9,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "blatter_a",
@@ -323,6 +323,16 @@
       "ids": {},
       "registry_name": "haraldiumbarren",
       "path": "~/Items"
+    },
+    {
+      "name": "Gameboy",
+      "type": "mob",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gameboy",
+      "path": "~/Entity"
     }
   ],
   "variable_elements": [],
@@ -337,9 +347,11 @@
       "block.triomodmcreator.blue_leaave": "Retro Leave",
       "block.triomodmcreator.retrocolor_4": "Retrocolor 4",
       "block.triomodmcreator.retrocolor_3": "Retrocolor 3",
+      "item.triomodmcreator.gameboy_spawn_egg": "Gameboy Spawn Egg",
       "block.triomodmcreator.retro_color_2": "Retro Color 2",
       "block.triomodmcreator.retro_ore": "Retro Ore",
       "block.triomodmcreator.retro_color_1": "Retro Color 1",
+      "entity.triomodmcreator.gameboy": "Gameboy",
       "block.triomodmcreator.fickdich_m_creator": "Gras A",
       "block.triomodmcreator.blue_log": "Retro Log",
       "item.triomodmcreator.retro_gem": "Retro Gem",
@@ -348,7 +360,8 @@
       "block.triomodmcreator.haraldium": "Haraldium",
       "biome.triomodmcreator.retro_biom": "Retro Biom",
       "block.triomodmcreator.baum_a": "Baum A",
-      "block.triomodmcreator.retro_planks_stairs": "Retro Planks Stairs"
+      "block.triomodmcreator.retro_planks_stairs": "Retro Planks Stairs",
+      "item.triomodmcreator.haraldiumbarren": "Haraldiumbarren"
     }
   },
   "foldersRoot": {
