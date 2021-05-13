@@ -8,7 +8,7 @@
     "mobModelTexture": "gameboy.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
-    "modelHeight": 1.8,
+    "modelHeight": 1.0,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
@@ -21,7 +21,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:SuperDuperCreativeTab"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -80,13 +80,13 @@
       "value": ""
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:gameboy_move"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:gameboy_hit"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "CUSTOM:missingno"
     },
     "stepSound": {
       "value": ""
