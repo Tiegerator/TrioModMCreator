@@ -353,10 +353,45 @@
       "ids": {},
       "registry_name": "harald",
       "path": "~/Entity"
+    },
+    {
+      "name": "Gameboy",
+      "type": "mob",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gameboy",
+      "path": "~/Entity"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "gameboy_move",
+      "files": [
+        "move_1"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "missingno",
+      "files": [
+        "missingno_0x4f_cry"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "gameboy_hit",
+      "files": [
+        "back"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "block.triomodmcreator.retro_planks": "Retro Planks",

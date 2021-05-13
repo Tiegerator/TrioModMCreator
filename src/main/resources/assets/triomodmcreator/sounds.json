@@ -1,1 +1,29 @@
-{}
+{
+  "gameboy_move": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "triomodmcreator:move_1",
+        "stream": false
+      }
+    ]
+  },
+  "missingno": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "triomodmcreator:missingno_0x4f_cry",
+        "stream": false
+      }
+    ]
+  },
+  "gameboy_hit": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "triomodmcreator:back",
+        "stream": false
+      }
+    ]
+  }
+}

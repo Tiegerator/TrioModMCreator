@@ -45,6 +45,12 @@ public class TriomodmcreatorModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public TriomodmcreatorModElements() {
+		sounds.put(new ResourceLocation("triomodmcreator", "gameboy_move"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("triomodmcreator", "gameboy_move")));
+		sounds.put(new ResourceLocation("triomodmcreator", "missingno"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("triomodmcreator", "missingno")));
+		sounds.put(new ResourceLocation("triomodmcreator", "gameboy_hit"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("triomodmcreator", "gameboy_hit")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("triomodmcreator").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
