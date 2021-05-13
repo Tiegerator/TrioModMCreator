@@ -8,7 +8,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.StairsBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
@@ -20,11 +19,11 @@ import java.util.List;
 import java.util.Collections;
 
 @TriomodmcreatorModElements.ModElement.Tag
-public class RetroPlanksStairsBlock extends TriomodmcreatorModElements.ModElement {
-	@ObjectHolder("triomodmcreator:retro_planks_stairs")
+public class HAraldiumBlockBlock extends TriomodmcreatorModElements.ModElement {
+	@ObjectHolder("triomodmcreator:h_araldium_block")
 	public static final Block block = null;
-	public RetroPlanksStairsBlock(TriomodmcreatorModElements instance) {
-		super(instance, 21);
+	public HAraldiumBlockBlock(TriomodmcreatorModElements instance) {
+		super(instance, 23);
 	}
 
 	@Override
@@ -33,12 +32,10 @@ public class RetroPlanksStairsBlock extends TriomodmcreatorModElements.ModElemen
 		elements.items.add(
 				() -> new BlockItem(block, new Item.Properties().group(SuperDuperCreativeTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-	public static class CustomBlock extends StairsBlock {
+	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(() -> new Block(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0))
-					.getDefaultState(),
-					Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
-			setRegistryName("retro_planks_stairs");
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(3f, 100f).setLightLevel(s -> 0));
+			setRegistryName("h_araldium_block");
 		}
 
 		@Override
