@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "blueleaves",
-    "textureTop": "blueleaves",
-    "textureLeft": "blueleaves",
-    "textureFront": "blueleaves",
-    "textureRight": "blueleaves",
-    "textureBack": "blueleaves",
+    "texture": "bluedirt",
+    "textureTop": "bluedirt",
+    "textureLeft": "bluedirt",
+    "textureFront": "bluedirt",
+    "textureRight": "bluedirt",
+    "textureBack": "bluedirt",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -17,8 +17,8 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
-    "connectedSides": true,
+    "hasTransparency": false,
+    "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Retro Leave",
+    "name": "Retro Dirt",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "LEAVES"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "VINE"
+      "value": "GROUND"
     },
     "luminance": 0,
     "unbreakable": false,

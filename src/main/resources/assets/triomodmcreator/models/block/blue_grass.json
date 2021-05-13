@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "triomodmcreator:blocks/bluedirt",
+    "up": "triomodmcreator:blocks/bluegrasstop",
+    "north": "triomodmcreator:blocks/bluegrassside",
+    "east": "triomodmcreator:blocks/bluegrassside",
+    "south": "triomodmcreator:blocks/bluegrassside",
+    "west": "triomodmcreator:blocks/bluegrassside",
+    "particle": "triomodmcreator:blocks/bluedirt"
+  }
+}

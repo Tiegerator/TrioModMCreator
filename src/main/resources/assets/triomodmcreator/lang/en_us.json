@@ -1,4 +1,7 @@
 {
-  "block.triomodmcreator.blue_log": "Blue Log",
-  "block.triomodmcreator.blue_leaave": "Blue Leave"
+  "block.triomodmcreator.blue_log": "Retro Log",
+  "block.triomodmcreator.blue_dirt": "Retro Dirt",
+  "block.triomodmcreator.blue_grass": "Retro Grass",
+  "block.triomodmcreator.blue_leaave": "Retro Leave",
+  "biome.triomodmcreator.retro_biom": "Retro Biom"
 }
