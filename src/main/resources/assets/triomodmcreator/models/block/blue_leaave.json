@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "triomodmcreator:blocks/blueleaves",
+    "up": "triomodmcreator:blocks/blueleaves",
+    "north": "triomodmcreator:blocks/blueleaves",
+    "east": "triomodmcreator:blocks/blueleaves",
+    "south": "triomodmcreator:blocks/blueleaves",
+    "west": "triomodmcreator:blocks/blueleaves",
+    "particle": "triomodmcreator:blocks/blueleaves"
+  }
+}
