@@ -23,7 +23,7 @@ public class FickdichMCreatorBlock extends TriomodmcreatorModElements.ModElement
 	@ObjectHolder("triomodmcreator:fickdich_m_creator")
 	public static final Block block = null;
 	public FickdichMCreatorBlock(TriomodmcreatorModElements instance) {
-		super(instance, 2);
+		super(instance, 1);
 	}
 
 	@Override

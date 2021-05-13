@@ -110,7 +110,7 @@
       "name": "RetroOre",
       "type": "block",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "retro_ore",
@@ -120,7 +120,7 @@
       "name": "RetroPlanks",
       "type": "block",
       "sortid": 6,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "retro_planks",
@@ -149,7 +149,7 @@
       "name": "RetroGleve",
       "type": "tool",
       "sortid": 16,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "retro_gleve",
@@ -209,7 +209,7 @@
       "name": "BlatterA",
       "type": "block",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "blatter_a",
@@ -256,6 +256,16 @@
       "path": "~/Blocks"
     },
     {
+      "name": "RecRpStairs",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_rp_stairs",
+      "path": "~/Recipes"
+    },
+    {
       "name": "RetroColor2",
       "type": "block",
       "sortid": 23,
@@ -263,16 +273,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "retro_color_2",
-      "path": "~/Blocks"
-    },
-    {
-      "name": "Retrocolor3",
-      "type": "block",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "retrocolor_3",
       "path": "~/Blocks"
     },
     {
@@ -286,23 +286,14 @@
       "path": "~/Blocks"
     },
     {
-      "name": "ValidSpawnBlocks",
-      "type": "tag",
-      "sortid": 26,
+      "name": "Retrocolor3",
+      "type": "block",
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "valid_spawn_blocks"
-    },
-    {
-      "name": "RecRpStairs",
-      "type": "recipe",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rec_rp_stairs",
-      "path": "~/Recipes"
+      "registry_name": "retrocolor_3",
+      "path": "~/Blocks"
     },
     {
       "name": "RecRpStairs2",
@@ -313,6 +304,25 @@
       "ids": {},
       "registry_name": "rec_rp_stairs_2",
       "path": "~/Recipes"
+    },
+    {
+      "name": "ValidSpawnBlocks",
+      "type": "tag",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "valid_spawn_blocks"
+    },
+    {
+      "name": "Haraldiumbarren",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "haraldiumbarren",
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
