@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "triomodmcreator:blocks/erdeunten",
+    "up": "triomodmcreator:blocks/erdeunten",
+    "north": "triomodmcreator:blocks/erdeunten",
+    "east": "triomodmcreator:blocks/erdeunten",
+    "south": "triomodmcreator:blocks/erdeunten",
+    "west": "triomodmcreator:blocks/erdeunten",
+    "particle": "triomodmcreator:blocks/erdeunten"
+  }
+}

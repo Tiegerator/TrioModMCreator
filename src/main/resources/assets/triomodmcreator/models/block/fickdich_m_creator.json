@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "triomodmcreator:blocks/erdeunten",
+    "up": "triomodmcreator:blocks/toll",
+    "north": "triomodmcreator:blocks/haraldgras",
+    "east": "triomodmcreator:blocks/haraldgras",
+    "south": "triomodmcreator:blocks/haraldgras",
+    "west": "triomodmcreator:blocks/haraldgras",
+    "particle": "triomodmcreator:blocks/erdeunten"
+  }
+}
