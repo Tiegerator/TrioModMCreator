@@ -1,0 +1,39 @@
+{
+  "group": "triomodmcreator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "2": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "3": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "4": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "5": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "6": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "7": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "8": {
+      "item": "triomodmcreator:retro_gem"
+    }
+  },
+  "result": {
+    "item": "triomodmcreator:retro_armor_chestplate",
+    "count": 1
+  }
+}

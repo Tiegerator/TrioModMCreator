@@ -353,6 +353,62 @@
       "ids": {},
       "registry_name": "h_araldschwert",
       "path": "~/Tools"
+    },
+    {
+      "name": "RetroArmor",
+      "type": "armor",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "RecRetroHelmet",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_helmet",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecRetroChestplate",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_chestplate",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecLeggings",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_leggings",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecShoe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_shoe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -398,12 +454,16 @@
       "block.triomodmcreator.dreck_a": "Dreck A",
       "subtitles.missingno": "",
       "biome.triomodmcreator.retro_biom": "Retro Biom",
+      "item.triomodmcreator.retro_armor_chestplate": "Retro Chestplate",
       "block.triomodmcreator.baum_a": "Baum A",
       "itemGroup.tabsuper_duper_creative_tab": "Super Duper Creative Tab",
       "block.triomodmcreator.blue_dirt": "Retro Dirt",
       "block.triomodmcreator.blue_grass": "Retro Grass",
+      "item.triomodmcreator.retro_armor_boots": "Retro Shoe",
+      "item.triomodmcreator.retro_armor_leggings": "Retro Leggings",
       "block.triomodmcreator.retro_color_2": "Retro Color 2",
       "block.triomodmcreator.retro_color_1": "Retro Color 1",
+      "item.triomodmcreator.retro_armor_helmet": "Retro Helm",
       "block.triomodmcreator.fickdich_m_creator": "Gras A",
       "block.triomodmcreator.blue_log": "Retro Log",
       "item.triomodmcreator.retro_gem": "Retro Gem",
