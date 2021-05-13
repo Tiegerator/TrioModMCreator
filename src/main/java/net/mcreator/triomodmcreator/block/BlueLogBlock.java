@@ -30,7 +30,7 @@ public class BlueLogBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:blue_log")
 	public static final Block block = null;
 	public BlueLogBlock(TriomodmcreatorModElements instance) {
-		super(instance, 5);
+		super(instance, 1);
 	}
 
 	@Override

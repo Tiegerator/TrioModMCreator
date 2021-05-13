@@ -244,6 +244,16 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "plank_items"
+    },
+    {
+      "name": "Haraldiumbarren",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "haraldiumbarren",
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -251,11 +261,22 @@
   "language_map": {
     "en_us": {
       "block.triomodmcreator.blue_dirt": "Retro Dirt",
+      "itemGroup.tabsuper_duper_creative_tab": "Super Duper Creative Tab",
+      "block.triomodmcreator.retro_planks": "Retro Planks",
       "block.triomodmcreator.blue_grass": "Retro Grass",
+      "item.triomodmcreator.retro_gleve": "Retro Gleve",
       "block.triomodmcreator.blue_leaave": "Retro Leave",
+      "block.triomodmcreator.retro_ore": "Retro Ore",
       "block.triomodmcreator.blue_log": "Retro Log",
       "block.triomodmcreator.fickdich_m_creator": "Gras A",
-      "block.triomodmcreator.dreck_a": "Dreck A"
+      "item.triomodmcreator.retro_gem": "Retro Gem",
+      "block.triomodmcreator.dreck_a": "Dreck A",
+      "block.triomodmcreator.blatter_a": "Blatter A",
+      "block.triomodmcreator.haraldium": "Haraldium",
+      "biome.triomodmcreator.retro_biom": "Retro Biom",
+      "block.triomodmcreator.baum_a": "Baum A",
+      "block.triomodmcreator.retro_planks_stairs": "Retro Planks Stairs",
+      "item.triomodmcreator.haraldiumbarren": "Haraldiumbarren"
     }
   },
   "foldersRoot": {

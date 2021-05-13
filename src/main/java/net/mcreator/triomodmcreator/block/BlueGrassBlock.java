@@ -23,7 +23,7 @@ public class BlueGrassBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:blue_grass")
 	public static final Block block = null;
 	public BlueGrassBlock(TriomodmcreatorModElements instance) {
-		super(instance, 4);
+		super(instance, 5);
 	}
 
 	@Override
