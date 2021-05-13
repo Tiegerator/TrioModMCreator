@@ -2,20 +2,20 @@
 package net.mcreator.triomodmcreator.item;
 
 @TriomodmcreatorModElements.ModElement.Tag
-public class RetroGleveItem extends TriomodmcreatorModElements.ModElement {
+public class HAraldschwertItem extends TriomodmcreatorModElements.ModElement {
 
-	@ObjectHolder("triomodmcreator:retro_gleve")
+	@ObjectHolder("triomodmcreator:h_araldschwert")
 	public static final Item block = null;
 
-	public RetroGleveItem(TriomodmcreatorModElements instance) {
-		super(instance, 16);
+	public HAraldschwertItem(TriomodmcreatorModElements instance) {
+		super(instance, 24);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
+		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 6789;
+				return 100;
 			}
 
 			public float getEfficiency() {
@@ -23,7 +23,7 @@ public class RetroGleveItem extends TriomodmcreatorModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 6f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
@@ -35,11 +35,11 @@ public class RetroGleveItem extends TriomodmcreatorModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(RetroGemItem.block, (int) (1)));
+				return Ingredient.EMPTY;
 			}
-		}, 3, -2.5f, new Item.Properties().group(SuperDuperCreativeTabItemGroup.tab)) {
+		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 
-		}.setRegistryName("retro_gleve"));
+		}.setRegistryName("h_araldschwert"));
 	}
 
 }

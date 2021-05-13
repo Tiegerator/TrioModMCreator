@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "triomodmcreator:blocks/haraldiumblock",
+    "up": "triomodmcreator:blocks/haraldiumblock",
+    "north": "triomodmcreator:blocks/haraldiumblock",
+    "east": "triomodmcreator:blocks/haraldiumblock",
+    "south": "triomodmcreator:blocks/haraldiumblock",
+    "west": "triomodmcreator:blocks/haraldiumblock",
+    "particle": "triomodmcreator:blocks/haraldiumblock"
+  }
+}
