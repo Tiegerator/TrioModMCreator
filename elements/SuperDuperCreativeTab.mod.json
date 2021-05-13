@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Super Duper Creative Tab",
+    "icon": {
+      "value": "CUSTOM:DreckA"
+    },
+    "showSearch": true
+  }
+}
