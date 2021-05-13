@@ -4,13 +4,13 @@ package net.mcreator.triomodmcreator.block;
 import net.minecraft.block.material.Material;
 
 @TriomodmcreatorModElements.ModElement.Tag
-public class FickdichMCreatorBlock extends TriomodmcreatorModElements.ModElement {
+public class BlueDirtBlock extends TriomodmcreatorModElements.ModElement {
 
-	@ObjectHolder("triomodmcreator:fickdich_m_creator")
+	@ObjectHolder("triomodmcreator:blue_dirt")
 	public static final Block block = null;
 
-	public FickdichMCreatorBlock(TriomodmcreatorModElements instance) {
-		super(instance, 1);
+	public BlueDirtBlock(TriomodmcreatorModElements instance) {
+		super(instance, 6);
 
 	}
 
@@ -26,7 +26,7 @@ public class FickdichMCreatorBlock extends TriomodmcreatorModElements.ModElement
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 
-			setRegistryName("fickdich_m_creator");
+			setRegistryName("blue_dirt");
 		}
 
 		@Override
@@ -35,7 +35,7 @@ public class FickdichMCreatorBlock extends TriomodmcreatorModElements.ModElement
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(DreckAItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 
 	}
