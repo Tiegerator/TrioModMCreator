@@ -714,8 +714,7 @@
             "type": "itemstack"
           }
         ]
-      },
-      "path": "~/Procedures"
+      }
     },
     {
       "name": "HaraldiumrüstungArmorHelmetRecipe",
@@ -796,26 +795,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "RetroRapier",
-      "type": "tool",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "retro_rapier",
-      "path": "~/Swords"
-    },
-    {
-      "name": "RecRetroRapier",
-      "type": "recipe",
-      "sortid": 69,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rec_retro_rapier",
-      "path": "~/Recipes"
-    },
-    {
       "name": "RetroShuriken",
       "type": "gun",
       "sortid": 70,
@@ -826,6 +805,16 @@
       "path": "~/Swords"
     },
     {
+      "name": "RetroRapier",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_rapier",
+      "path": "~/Swords"
+    },
+    {
       "name": "RecRetroShuriken",
       "type": "recipe",
       "sortid": 71,
@@ -833,6 +822,16 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rec_retro_shuriken",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecRetroRapier",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_rapier",
       "path": "~/Recipes"
     }
   ],
@@ -959,15 +958,15 @@
         "children": []
       },
       {
+        "name": "Gui",
+        "children": []
+      },
+      {
         "name": "Biom",
         "children": []
       },
       {
         "name": "Entity",
-        "children": []
-      },
-      {
-        "name": "Gui",
         "children": []
       }
     ]

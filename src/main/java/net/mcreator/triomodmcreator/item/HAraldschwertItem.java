@@ -17,7 +17,7 @@ public class HAraldschwertItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:h_araldschwert")
 	public static final Item block = null;
 	public HAraldschwertItem(TriomodmcreatorModElements instance) {
-		super(instance, 8);
+		super(instance, 24);
 	}
 
 	@Override
