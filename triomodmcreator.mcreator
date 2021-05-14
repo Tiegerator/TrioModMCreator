@@ -620,6 +620,26 @@
       "ids": {},
       "registry_name": "retro_hoe_recipe",
       "path": "~/Recipes"
+    },
+    {
+      "name": "RetroHammer",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_hammer",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RecRetroHammer",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_hammer",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -652,13 +672,14 @@
   "language_map": {
     "en_us": {
       "block.triomodmcreator.retro_planks": "Retro Planks",
-      "item.triomodmcreator.retro_gleve": "Retro Gleve",
       "item.triomodmcreator.retro_hoe": "Retro Hoe",
+      "item.triomodmcreator.retro_gleve": "Retro Gleve",
       "block.triomodmcreator.blue_leaave": "Retro Leave",
       "block.triomodmcreator.retrocolor_4": "Retrocolor 4",
-      "entity.triomodmcreator.harald": "Harald",
       "block.triomodmcreator.retrocolor_3": "Retrocolor 3",
+      "entity.triomodmcreator.harald": "Harald",
       "item.triomodmcreator.h_araldschwert": "Haraldschwert",
+      "item.triomodmcreator.retro_hammer": "Retro Hammer",
       "item.triomodmcreator.gameboy_spawn_egg": "Gameboy Robot Spawn Egg",
       "block.triomodmcreator.retro_ore": "Retro Ore",
       "item.triomodmcreator.retro_shovel": "Retro Shovel",
