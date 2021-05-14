@@ -9,11 +9,13 @@
   "entity.triomodmcreator.gameboy": "Gameboy Robot",
   "item.triomodmcreator.blank_card": "Blank Card",
   "block.triomodmcreator.retro_gem_block": "Retro Gem Block",
+  "item.triomodmcreator.stone_katana": "Stone Katana",
   "item.triomodmcreator.retro_sword": "Retro Sword",
   "itemGroup.tabsuper_duper_creative_tab": "Super Duper Creative Tab",
   "block.triomodmcreator.blue_grass": "Retro Grass",
   "item.triomodmcreator.retro_armor_boots": "Retro Shoe",
   "item.triomodmcreator.retro_armor_leggings": "Retro Leggings",
+  "item.triomodmcreator.diamond_katana": "Diamond Katana",
   "item.triomodmcreator.retro_dagger": "Retro Dagger",
   "item.triomodmcreator.haraldiumrustung_armor_chestplate": "Haraldiumrüstung Chestplate",
   "block.triomodmcreator.retro_color_2": "Retro Color 2",
@@ -50,6 +52,8 @@
   "block.triomodmcreator.blue_log": "Retro Log",
   "item.triomodmcreator.retro_gem": "Retro Gem",
   "item.triomodmcreator.harald_spawn_egg": "Harald Spawn Egg",
+  "item.triomodmcreator.netherite_katana": "Netherite Katana",
   "block.triomodmcreator.blatter_a": "Blatter A",
-  "item.triomodmcreator.retro_katana": "Retro Katana"
+  "item.triomodmcreator.retro_katana": "Retro Katana",
+  "item.triomodmcreator.iron_katana": "Iron Katana"
 }

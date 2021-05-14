@@ -25,7 +25,7 @@ import java.util.Map;
 @TriomodmcreatorModElements.ModElement.Tag
 public class SanganCardWennMitDerRechtenMaustasteAufEinenBlockGeklicktWurdeProcedure extends TriomodmcreatorModElements.ModElement {
 	public SanganCardWennMitDerRechtenMaustasteAufEinenBlockGeklicktWurdeProcedure(TriomodmcreatorModElements instance) {
-		super(instance, 70);
+		super(instance, 75);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

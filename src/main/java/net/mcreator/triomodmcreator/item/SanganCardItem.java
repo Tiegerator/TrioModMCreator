@@ -26,7 +26,7 @@ public class SanganCardItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:sangan_card")
 	public static final Item block = null;
 	public SanganCardItem(TriomodmcreatorModElements instance) {
-		super(instance, 39);
+		super(instance, 40);
 	}
 
 	@Override

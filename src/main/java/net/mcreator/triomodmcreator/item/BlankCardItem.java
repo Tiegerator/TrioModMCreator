@@ -16,7 +16,7 @@ public class BlankCardItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:blank_card")
 	public static final Item block = null;
 	public BlankCardItem(TriomodmcreatorModElements instance) {
-		super(instance, 79);
+		super(instance, 39);
 	}
 
 	@Override

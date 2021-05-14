@@ -35,7 +35,7 @@ public class SanganEntity extends TriomodmcreatorModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(0.6f, 1.4f)).build("sangan").setRegistryName("sangan");
 	public SanganEntity(TriomodmcreatorModElements instance) {
-		super(instance, 40);
+		super(instance, 41);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SanganRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}
