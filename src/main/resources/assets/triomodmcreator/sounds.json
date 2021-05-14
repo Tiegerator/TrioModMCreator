@@ -25,5 +25,14 @@
         "stream": false
       }
     ]
+  },
+  "laugh": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "triomodmcreator:laugh.ogg",
+        "stream": false
+      }
+    ]
   }
 }

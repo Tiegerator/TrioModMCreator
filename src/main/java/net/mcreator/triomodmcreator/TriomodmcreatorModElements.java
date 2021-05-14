@@ -51,6 +51,8 @@ public class TriomodmcreatorModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("triomodmcreator", "gameboy_move")));
 		sounds.put(new ResourceLocation("triomodmcreator", "gameboy_hit"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("triomodmcreator", "gameboy_hit")));
+		sounds.put(new ResourceLocation("triomodmcreator", "laugh"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("triomodmcreator", "laugh")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("triomodmcreator").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

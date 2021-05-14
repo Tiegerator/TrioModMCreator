@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "helmet",
+    "enableBody": true,
+    "textureBody": "brust",
+    "enableLeggings": true,
+    "textureLeggings": "leggins",
+    "enableBoots": true,
+    "textureBoots": "boots",
+    "creativeTab": {
+      "value": "CUSTOM:SuperDuperCreativeTab"
+    },
+    "armorTextureFile": "haraldruestung_",
+    "helmetName": "Haraldiumrüstung Helmet",
+    "bodyName": "Haraldiumrüstung Chestplate",
+    "leggingsName": "Haraldiumrüstung Leggings",
+    "bootsName": "Haraldiumrüstung Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 45,
+    "damageValueHelmet": 6,
+    "damageValueBody": 15,
+    "damageValueLeggings": 18,
+    "damageValueBoots": 6,
+    "enchantability": 27,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Haraldiumbarren"
+      }
+    ]
+  }
+}
