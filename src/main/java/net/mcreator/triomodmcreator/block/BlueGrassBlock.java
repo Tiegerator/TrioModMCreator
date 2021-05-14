@@ -24,7 +24,7 @@ public class BlueGrassBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:blue_grass")
 	public static final Block block = null;
 	public BlueGrassBlock(TriomodmcreatorModElements instance) {
-		super(instance, 4);
+		super(instance, 11);
 	}
 
 	@Override
@@ -35,7 +35,7 @@ public class BlueGrassBlock extends TriomodmcreatorModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(2f, 10f).setLightLevel(s -> 0).harvestLevel(0)
 					.harvestTool(ToolType.SHOVEL).setRequiresTool());
 			setRegistryName("blue_grass");
 		}

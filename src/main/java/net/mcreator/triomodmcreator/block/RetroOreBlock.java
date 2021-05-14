@@ -47,7 +47,7 @@ public class RetroOreBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_ore")
 	public static final Block block = null;
 	public RetroOreBlock(TriomodmcreatorModElements instance) {
-		super(instance, 8);
+		super(instance, 17);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -60,7 +60,7 @@ public class RetroOreBlock extends TriomodmcreatorModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(3)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(25f, 30f).setLightLevel(s -> 0).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("retro_ore");
 		}

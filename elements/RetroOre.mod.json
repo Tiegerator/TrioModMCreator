@@ -34,8 +34,8 @@
     ],
     "name": "Retro Ore",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 25.0,
+    "resistance": 30.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

@@ -3,6 +3,9 @@ package net.mcreator.triomodmcreator.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Direction;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -25,7 +28,7 @@ public class BlueLeaaveBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:blue_leaave")
 	public static final Block block = null;
 	public BlueLeaaveBlock(TriomodmcreatorModElements instance) {
-		super(instance, 7);
+		super(instance, 16);
 	}
 
 	@Override
@@ -38,6 +41,11 @@ public class BlueLeaaveBlock extends TriomodmcreatorModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.VINE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid());
 			setRegistryName("blue_leaave");
+		}
+
+		@Override
+		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 10;
 		}
 
 		@Override

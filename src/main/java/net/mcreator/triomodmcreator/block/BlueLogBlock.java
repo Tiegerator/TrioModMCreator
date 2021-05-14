@@ -31,7 +31,7 @@ public class BlueLogBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:blue_log")
 	public static final Block block = null;
 	public BlueLogBlock(TriomodmcreatorModElements instance) {
-		super(instance, 5);
+		super(instance, 12);
 	}
 
 	@Override
@@ -43,7 +43,7 @@ public class BlueLogBlock extends TriomodmcreatorModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(0)
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 10f).setLightLevel(s -> 0).harvestLevel(0)
 					.harvestTool(ToolType.AXE).setRequiresTool());
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("blue_log");

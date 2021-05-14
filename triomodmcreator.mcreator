@@ -8,7 +8,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "fickdich_m_creator"
+      "registry_name": "fickdich_m_creator",
+      "path": "~/Blocks"
     },
     {
       "name": "DreckA",
@@ -23,7 +24,7 @@
     {
       "name": "LogBlocks",
       "type": "tag",
-      "sortid": 10,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -32,7 +33,7 @@
     {
       "name": "BlueDirt",
       "type": "block",
-      "sortid": 3,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -42,7 +43,7 @@
     {
       "name": "BlueLeaave",
       "type": "block",
-      "sortid": 7,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -52,7 +53,7 @@
     {
       "name": "BlueLog",
       "type": "block",
-      "sortid": 5,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -62,7 +63,7 @@
     {
       "name": "LeaveBlocks",
       "type": "tag",
-      "sortid": 11,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -71,7 +72,7 @@
     {
       "name": "BlueGrass",
       "type": "block",
-      "sortid": 4,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -81,7 +82,7 @@
     {
       "name": "DirtBlocks",
       "type": "tag",
-      "sortid": 12,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -90,7 +91,7 @@
     {
       "name": "RetroGem",
       "type": "item",
-      "sortid": 9,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -100,7 +101,7 @@
     {
       "name": "SuperDuperCreativeTab",
       "type": "tab",
-      "sortid": 13,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -109,7 +110,7 @@
     {
       "name": "RetroOre",
       "type": "block",
-      "sortid": 8,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -119,7 +120,7 @@
     {
       "name": "RetroPlanks",
       "type": "block",
-      "sortid": 6,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -129,7 +130,7 @@
     {
       "name": "RecRlToRp",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +140,7 @@
     {
       "name": "PlankItems",
       "type": "tag",
-      "sortid": 15,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -148,7 +149,7 @@
     {
       "name": "RetroGleve",
       "type": "tool",
-      "sortid": 16,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -158,7 +159,7 @@
     {
       "name": "RecRetroGleve",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -168,7 +169,7 @@
     {
       "name": "RecRpStick",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -178,7 +179,7 @@
     {
       "name": "RecRpWorkbench",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -188,7 +189,7 @@
     {
       "name": "RecRpChest",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -198,7 +199,7 @@
     {
       "name": "RetroPlanksStairs",
       "type": "block",
-      "sortid": 21,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -208,7 +209,7 @@
     {
       "name": "BlatterA",
       "type": "block",
-      "sortid": 9,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -218,7 +219,7 @@
     {
       "name": "BaumA",
       "type": "block",
-      "sortid": 9,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -228,7 +229,7 @@
     {
       "name": "RetroBiom",
       "type": "biome",
-      "sortid": 8,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -238,7 +239,7 @@
     {
       "name": "Haraldium",
       "type": "block",
-      "sortid": 10,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -248,7 +249,7 @@
     {
       "name": "RetroColor1",
       "type": "block",
-      "sortid": 22,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -258,7 +259,7 @@
     {
       "name": "RecRpStairs",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -268,7 +269,7 @@
     {
       "name": "RetroColor2",
       "type": "block",
-      "sortid": 23,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -278,7 +279,7 @@
     {
       "name": "Retrocolor4",
       "type": "block",
-      "sortid": 25,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -288,7 +289,7 @@
     {
       "name": "Retrocolor3",
       "type": "block",
-      "sortid": 24,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -298,7 +299,7 @@
     {
       "name": "RecRpStairs2",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -308,7 +309,7 @@
     {
       "name": "ValidSpawnBlocks",
       "type": "tag",
-      "sortid": 26,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -317,7 +318,7 @@
     {
       "name": "Haraldiumbarren",
       "type": "item",
-      "sortid": 22,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -327,7 +328,7 @@
     {
       "name": "Gameboy",
       "type": "mob",
-      "sortid": 29,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -337,7 +338,7 @@
     {
       "name": "HAraldiumBlock",
       "type": "block",
-      "sortid": 23,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -347,17 +348,17 @@
     {
       "name": "HAraldschwert",
       "type": "tool",
-      "sortid": 24,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "h_araldschwert",
-      "path": "~/Tools"
+      "path": "~/Swords"
     },
     {
       "name": "RetroArmor",
       "type": "armor",
-      "sortid": 30,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -373,7 +374,7 @@
     {
       "name": "RecShoe",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -383,7 +384,7 @@
     {
       "name": "RecLeggings",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -393,7 +394,7 @@
     {
       "name": "RecRetroHelmet",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -403,7 +404,7 @@
     {
       "name": "RecRetroChestplate",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -413,12 +414,212 @@
     {
       "name": "Harald",
       "type": "mob",
-      "sortid": 29,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "harald",
       "path": "~/Entity"
+    },
+    {
+      "name": "RetroGemBlock",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_gem_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RetroPlanksSlab",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_planks_slab",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RecRpSlabs",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_rp_slabs",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecRpSlabs2",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_rp_slabs_2",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecRpSlabs3",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_rp_slabs_3",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GameboyItem",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gameboy_item",
+      "path": "~/Items"
+    },
+    {
+      "name": "RetroKatana",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_katana",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RecRetroKatana",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_katana",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroDagger",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_dagger",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RecRetroDagger",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_dagger",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroPickaxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "RetroAxe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "RetroSword",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_sword",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RetroShovel",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_shovel",
+      "path": "~/Tools"
+    },
+    {
+      "name": "RetroHoe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_hoe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "RetroPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_pickaxe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroAxeRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_axe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroSwordRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_sword_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroShovelRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_shovel_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroHoeRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_hoe_recipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -452,32 +653,42 @@
     "en_us": {
       "block.triomodmcreator.retro_planks": "Retro Planks",
       "item.triomodmcreator.retro_gleve": "Retro Gleve",
+      "item.triomodmcreator.retro_hoe": "Retro Hoe",
       "block.triomodmcreator.blue_leaave": "Retro Leave",
       "block.triomodmcreator.retrocolor_4": "Retrocolor 4",
-      "block.triomodmcreator.retrocolor_3": "Retrocolor 3",
       "entity.triomodmcreator.harald": "Harald",
+      "block.triomodmcreator.retrocolor_3": "Retrocolor 3",
       "item.triomodmcreator.h_araldschwert": "Haraldschwert",
-      "item.triomodmcreator.gameboy_spawn_egg": "Gameboy Spawn Egg",
+      "item.triomodmcreator.gameboy_spawn_egg": "Gameboy Robot Spawn Egg",
       "block.triomodmcreator.retro_ore": "Retro Ore",
-      "entity.triomodmcreator.gameboy": "Gameboy",
+      "item.triomodmcreator.retro_shovel": "Retro Shovel",
+      "entity.triomodmcreator.gameboy": "Gameboy Robot",
       "block.triomodmcreator.dreck_a": "Dreck A",
+      "block.triomodmcreator.retro_gem_block": "Retro Gem Block",
       "biome.triomodmcreator.retro_biom": "Retro Biom",
+      "item.triomodmcreator.gameboy_item": "Gameboy",
       "item.triomodmcreator.retro_armor_chestplate": "Retro Chestplate",
       "block.triomodmcreator.baum_a": "Baum A",
+      "item.triomodmcreator.retro_sword": "Retro Sword",
       "itemGroup.tabsuper_duper_creative_tab": "Super Duper Creative Tab",
       "block.triomodmcreator.blue_dirt": "Retro Dirt",
       "block.triomodmcreator.blue_grass": "Retro Grass",
       "item.triomodmcreator.retro_armor_boots": "Retro Shoe",
       "item.triomodmcreator.retro_armor_leggings": "Retro Leggings",
+      "item.triomodmcreator.retro_dagger": "Retro Dagger",
       "block.triomodmcreator.retro_color_2": "Retro Color 2",
       "block.triomodmcreator.retro_color_1": "Retro Color 1",
       "item.triomodmcreator.retro_armor_helmet": "Retro Helm",
+      "block.triomodmcreator.retro_planks_slab": "Retro Planks Slab",
       "block.triomodmcreator.fickdich_m_creator": "Gras A",
       "block.triomodmcreator.blue_log": "Retro Log",
       "item.triomodmcreator.retro_gem": "Retro Gem",
       "item.triomodmcreator.harald_spawn_egg": "Harald Spawn Egg",
+      "item.triomodmcreator.retro_pickaxe": "Retro Pickaxe",
+      "item.triomodmcreator.retro_axe": "Retro Axe",
       "block.triomodmcreator.blatter_a": "Blatter A",
       "block.triomodmcreator.haraldium": "Haraldium",
+      "item.triomodmcreator.retro_katana": "Retro Katana",
       "block.triomodmcreator.h_araldium_block": "Haraldium Block",
       "block.triomodmcreator.retro_planks_stairs": "Retro Planks Stairs",
       "item.triomodmcreator.haraldiumbarren": "Haraldiumbarren"

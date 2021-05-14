@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "retro_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:SuperDuperCreativeTab"
     },
     "armorTextureFile": "retro",
     "helmetName": "Retro Helm",

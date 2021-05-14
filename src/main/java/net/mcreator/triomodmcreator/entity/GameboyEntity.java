@@ -18,10 +18,12 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
+import net.minecraft.entity.ai.goal.HurtByTargetGoal;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.MobEntity;
@@ -33,6 +35,7 @@ import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.block.material.Material;
 
 import net.mcreator.triomodmcreator.itemgroup.SuperDuperCreativeTabItemGroup;
+import net.mcreator.triomodmcreator.item.GameboyItemItem;
 import net.mcreator.triomodmcreator.entity.renderer.GameboyRenderer;
 import net.mcreator.triomodmcreator.TriomodmcreatorModElements;
 
@@ -42,7 +45,7 @@ public class GameboyEntity extends TriomodmcreatorModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
 			.size(0.6f, 1f)).build("gameboy").setRegistryName("gameboy");
 	public GameboyEntity(TriomodmcreatorModElements instance) {
-		super(instance, 29);
+		super(instance, 33);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GameboyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
@@ -76,9 +79,9 @@ public class GameboyEntity extends TriomodmcreatorModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 10);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 20);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 9);
 			event.put(entity, ammma.create());
 		}
 	}
@@ -90,7 +93,7 @@ public class GameboyEntity extends TriomodmcreatorModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 0;
+			experienceValue = 3;
 			setNoAI(false);
 		}
 
@@ -102,14 +105,20 @@ public class GameboyEntity extends TriomodmcreatorModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new RandomWalkingGoal(this, 1));
-			this.goalSelector.addGoal(2, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(3, new SwimGoal(this));
+			this.targetSelector.addGoal(1, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
+			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 1));
+			this.goalSelector.addGoal(3, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(4, new SwimGoal(this));
 		}
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEFINED;
+		}
+
+		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
+			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(GameboyItemItem.block, (int) (1)));
 		}
 
 		@Override

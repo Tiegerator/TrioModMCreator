@@ -8,11 +8,11 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.triomodmcreator.itemgroup.SuperDuperCreativeTabItemGroup;
 import net.mcreator.triomodmcreator.TriomodmcreatorModElements;
 
 import java.util.List;
@@ -22,7 +22,7 @@ public class HaraldiumbarrenItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:haraldiumbarren")
 	public static final Item block = null;
 	public HaraldiumbarrenItem(TriomodmcreatorModElements instance) {
-		super(instance, 22);
+		super(instance, 6);
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class HaraldiumbarrenItem extends TriomodmcreatorModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(SuperDuperCreativeTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("haraldiumbarren");
 		}
 

@@ -1,0 +1,30 @@
+{
+  "group": "triomodmcreator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "1": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "2": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "triomodmcreator:retro_pickaxe",
+    "count": 1
+  }
+}
