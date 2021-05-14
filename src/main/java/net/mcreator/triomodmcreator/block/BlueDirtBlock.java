@@ -24,7 +24,7 @@ public class BlueDirtBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:blue_dirt")
 	public static final Block block = null;
 	public BlueDirtBlock(TriomodmcreatorModElements instance) {
-		super(instance, 3);
+		super(instance, 6);
 	}
 
 	@Override
