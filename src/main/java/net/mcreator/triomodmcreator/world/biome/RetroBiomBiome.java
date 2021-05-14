@@ -40,9 +40,11 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Direction;
 import net.minecraft.state.BooleanProperty;
+import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.triomodmcreator.entity.GameboyEntity;
 import net.mcreator.triomodmcreator.block.BlueLogBlock;
 import net.mcreator.triomodmcreator.block.BlueLeaaveBlock;
 import net.mcreator.triomodmcreator.block.BlueGrassBlock;
@@ -59,7 +61,7 @@ import com.google.common.collect.ImmutableList;
 public class RetroBiomBiome extends TriomodmcreatorModElements.ModElement {
 	public static Biome biome;
 	public RetroBiomBiome(TriomodmcreatorModElements instance) {
-		super(instance, 8);
+		super(instance, 45);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {
@@ -92,6 +94,7 @@ public class RetroBiomBiome extends TriomodmcreatorModElements.ModElement {
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
+				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(GameboyEntity.entity, 20, 4, 4));
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.NONE).depth(0.1f).scale(0.2f).temperature(0.5f)
 						.downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();

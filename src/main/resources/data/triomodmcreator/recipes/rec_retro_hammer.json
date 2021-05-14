@@ -1,0 +1,36 @@
+{
+  "group": "triomodmcreator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "1": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "2": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "3": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "triomodmcreator:deleted_mod_element",
+    "count": 1
+  }
+}

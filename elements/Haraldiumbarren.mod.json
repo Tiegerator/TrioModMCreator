@@ -8,7 +8,7 @@
     "name": "Haraldiumbarren",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:SuperDuperCreativeTab"
     },
     "stackSize": 64,
     "enchantability": 0,

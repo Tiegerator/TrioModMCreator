@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "triomodmcreator:block/retro_planks_slab"
+    },
+    "type=top": {
+      "model": "triomodmcreator:block/retro_planks_slab_top"
+    },
+    "type=double": {
+      "model": "triomodmcreator:block/retro_planks_slab_full"
+    }
+  }
+}

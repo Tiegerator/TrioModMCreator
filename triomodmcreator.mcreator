@@ -365,62 +365,6 @@
       "path": "~/Entity"
     },
     {
-      "name": "HaraldiumrüstungArmor",
-      "type": "armor",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "haraldiumrustung_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/Armor"
-    },
-    {
-      "name": "HaraldiumrüstungArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "haraldiumrustung_armor_helmet_recipe",
-      "path": "~/Armor"
-    },
-    {
-      "name": "HaraldiumrüstungArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "haraldiumrustung_armor_body_recipe",
-      "path": "~/Armor"
-    },
-    {
-      "name": "HaraldiumrüstungArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "haraldiumrustung_armor_leggings_recipe",
-      "path": "~/Armor"
-    },
-    {
-      "name": "HaraldiumrüstungArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "haraldiumrustung_armor_boots_recipe",
-      "path": "~/Armor"
-    },
-    {
       "name": "HaraldiumrustungArmorHelmTickEreignis",
       "type": "procedure",
       "sortid": 35,
@@ -440,6 +384,338 @@
           }
         ]
       }
+    },
+    {
+      "name": "HaraldiumrüstungArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "haraldiumrustung_armor_helmet_recipe",
+      "path": "~/Armor"
+    },
+    {
+      "name": "HaraldiumrüstungArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "haraldiumrustung_armor_leggings_recipe",
+      "path": "~/Armor"
+    },
+    {
+      "name": "HaraldiumrüstungArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "haraldiumrustung_armor_body_recipe",
+      "path": "~/Armor"
+    },
+    {
+      "name": "HaraldiumrüstungArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "haraldiumrustung_armor_boots_recipe",
+      "path": "~/Armor"
+    },
+    {
+      "name": "HaraldiumrüstungArmor",
+      "type": "armor",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "haraldiumrustung_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "RetroHoe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_hoe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "RetroHoeRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_hoe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecRpSlabs3",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_rp_slabs_3",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroAxeRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_axe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecShoe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_shoe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecRpSlabs2",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_rp_slabs_2",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroKatana",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_katana",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RecRetroChestplate",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_chestplate",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroDagger",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_dagger",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RetroAxe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "RetroShovelRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_shovel_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroSword",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_sword",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RecRetroHammer",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_hammer",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroPlanksSlab",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_planks_slab",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RetroHammer",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_hammer",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RetroPickaxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "RetroShovel",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_shovel",
+      "path": "~/Tools"
+    },
+    {
+      "name": "RetroArmor",
+      "type": "armor",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "RecRetroKatana",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_katana",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecRetroDagger",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_dagger",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroGemBlock",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_gem_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RetroSwordRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_sword_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecRpSlabs",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_rp_slabs",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_pickaxe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GameboyItem",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gameboy_item",
+      "path": "~/Items"
+    },
+    {
+      "name": "RecLeggings",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_leggings",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecRetroHelmet",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_helmet",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],

@@ -1,0 +1,26 @@
+{
+  "group": "triomodmcreator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "2": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "3": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "5": {
+      "item": "triomodmcreator:retro_gem"
+    }
+  },
+  "result": {
+    "item": "triomodmcreator:deleted_mod_element_boots",
+    "count": 1
+  }
+}
