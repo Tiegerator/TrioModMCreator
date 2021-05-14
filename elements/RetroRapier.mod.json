@@ -1,0 +1,36 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "retrorapier",
+    "customModelName": "Normal",
+    "name": "Retro Rapier",
+    "specialInfo": [
+      "Deals extra damage if the Target is unarmed"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SuperDuperCreativeTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 25.0,
+    "enchantability": 2,
+    "damageVsEntity": 6.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:RetroGem"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "RetroRapierLivingEntityIsHitWithTool"
+    }
+  }
+}

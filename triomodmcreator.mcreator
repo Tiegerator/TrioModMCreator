@@ -714,7 +714,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "HaraldiumrüstungArmorHelmetRecipe",
@@ -771,6 +772,68 @@
         "ec": true
       },
       "path": "~/Armor"
+    },
+    {
+      "name": "RetroRapierLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_rapier_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RetroRapier",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_rapier",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RecRetroRapier",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_rapier",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroShuriken",
+      "type": "gun",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_shuriken",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RecRetroShuriken",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_shuriken",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -813,32 +876,55 @@
       "item.triomodmcreator.retro_gleve": "Retro Gleve",
       "block.triomodmcreator.blue_leaave": "Retro Leave",
       "entity.triomodmcreator.harald": "Harald",
+      "item.triomodmcreator.retro_rapier": "Retro Rapier",
       "item.triomodmcreator.sangan_card": "Sangan Card",
+      "item.triomodmcreator.retro_shovel": "Retro Shovel",
       "block.triomodmcreator.retro_ore": "Retro Ore",
       "entity.triomodmcreator.gameboy": "Gameboy Robot",
+      "block.triomodmcreator.retro_gem_block": "Retro Gem Block",
+      "item.triomodmcreator.retro_sword": "Retro Sword",
       "itemGroup.tabsuper_duper_creative_tab": "Super Duper Creative Tab",
       "block.triomodmcreator.blue_grass": "Retro Grass",
+      "item.triomodmcreator.retro_armor_boots": "Retro Shoe",
+      "item.triomodmcreator.retro_armor_leggings": "Retro Leggings",
+      "item.triomodmcreator.retro_dagger": "Retro Dagger",
+      "item.triomodmcreator.haraldiumrustung_armor_chestplate": "Haraldiumrüstung Chestplate",
       "block.triomodmcreator.retro_color_2": "Retro Color 2",
       "block.triomodmcreator.retro_color_1": "Retro Color 1",
+      "item.triomodmcreator.retro_armor_helmet": "Retro Helm",
+      "item.triomodmcreator.retro_shuriken": "Retro Shuriken",
+      "item.triomodmcreator.retro_pickaxe": "Retro Pickaxe",
+      "item.triomodmcreator.retro_axe": "Retro Axe",
       "block.triomodmcreator.haraldium": "Haraldium",
       "block.triomodmcreator.h_araldium_block": "Haraldium Block",
       "block.triomodmcreator.retro_planks_stairs": "Retro Planks Stairs",
       "item.triomodmcreator.haraldiumbarren": "Haraldiumbarren",
       "block.triomodmcreator.retro_planks": "Retro Planks",
+      "item.triomodmcreator.haraldiumrustung_armor_leggings": "Haraldiumrüstung Leggings",
+      "item.triomodmcreator.haraldiumrustung_armor_boots": "Haraldiumrüstung Boots",
+      "item.triomodmcreator.retro_hoe": "Retro Hoe",
       "block.triomodmcreator.retrocolor_4": "Retrocolor 4",
       "block.triomodmcreator.retrocolor_3": "Retrocolor 3",
       "subtitles.laugh": "",
       "item.triomodmcreator.h_araldschwert": "Haraldschwert",
+      "item.triomodmcreator.retro_hammer": "Retro Hammer",
       "item.triomodmcreator.gameboy_spawn_egg": "Gameboy Robot Spawn Egg",
+      "item.triomodmcreator.sangan_spawn_egg": "Sangan Spawn Egg",
+      "item.triomodmcreator.haraldiumrustung_armor_helmet": "Haraldiumrüstung Helmet",
       "block.triomodmcreator.dreck_a": "Dreck A",
       "biome.triomodmcreator.retro_biom": "Retro Biom",
+      "item.triomodmcreator.gameboy_item": "Gameboy",
+      "item.triomodmcreator.retro_armor_chestplate": "Retro Chestplate",
       "block.triomodmcreator.baum_a": "Baum A",
       "block.triomodmcreator.blue_dirt": "Retro Dirt",
+      "entity.triomodmcreator.sangan": "Sangan",
+      "block.triomodmcreator.retro_planks_slab": "Retro Planks Slab",
       "block.triomodmcreator.fickdich_m_creator": "Gras A",
       "block.triomodmcreator.blue_log": "Retro Log",
       "item.triomodmcreator.retro_gem": "Retro Gem",
       "item.triomodmcreator.harald_spawn_egg": "Harald Spawn Egg",
-      "block.triomodmcreator.blatter_a": "Blatter A"
+      "block.triomodmcreator.blatter_a": "Blatter A",
+      "item.triomodmcreator.retro_katana": "Retro Katana"
     }
   },
   "foldersRoot": {
@@ -878,6 +964,10 @@
       },
       {
         "name": "Entity",
+        "children": []
+      },
+      {
+        "name": "Gui",
         "children": []
       }
     ]

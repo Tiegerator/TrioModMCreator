@@ -2,23 +2,26 @@
   "group": "triomodmcreator",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "0 ",
+    "2 ",
+    "45"
   ],
   "key": {
     "0": {
       "item": "triomodmcreator:retro_gem"
     },
-    "1": {
+    "2": {
+      "item": "triomodmcreator:retro_gem"
+    },
+    "4": {
       "item": "minecraft:stick"
     },
-    "2": {
-      "item": "minecraft:stick"
+    "5": {
+      "item": "triomodmcreator:retro_gem"
     }
   },
   "result": {
-    "item": "triomodmcreator:retro_shovel",
+    "item": "triomodmcreator:retro_rapier",
     "count": 1
   }
 }

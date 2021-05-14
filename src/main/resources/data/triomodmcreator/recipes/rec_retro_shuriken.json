@@ -2,29 +2,29 @@
   "group": "triomodmcreator",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23",
-    " 5"
+    " 1 ",
+    "345",
+    " 7 "
   ],
   "key": {
-    "0": {
-      "item": "triomodmcreator:retro_gem"
-    },
     "1": {
       "item": "triomodmcreator:retro_gem"
     },
-    "2": {
+    "3": {
       "item": "triomodmcreator:retro_gem"
     },
-    "3": {
+    "4": {
       "item": "minecraft:stick"
     },
     "5": {
-      "item": "minecraft:stick"
+      "item": "triomodmcreator:retro_gem"
+    },
+    "7": {
+      "item": "triomodmcreator:retro_gem"
     }
   },
   "result": {
-    "item": "triomodmcreator:retro_axe",
+    "item": "triomodmcreator:retro_shuriken",
     "count": 1
   }
 }

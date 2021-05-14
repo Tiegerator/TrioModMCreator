@@ -1,12 +1,21 @@
 
 package net.mcreator.triomodmcreator.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.HoeItem;
+
+import net.mcreator.triomodmcreator.itemgroup.SuperDuperCreativeTabItemGroup;
+import net.mcreator.triomodmcreator.TriomodmcreatorModElements;
+
 @TriomodmcreatorModElements.ModElement.Tag
 public class RetroHoeItem extends TriomodmcreatorModElements.ModElement {
-
 	@ObjectHolder("triomodmcreator:retro_hoe")
 	public static final Item block = null;
-
 	public RetroHoeItem(TriomodmcreatorModElements instance) {
 		super(instance, 27);
 	}
@@ -38,8 +47,6 @@ public class RetroHoeItem extends TriomodmcreatorModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(RetroGemItem.block, (int) (1)));
 			}
 		}, 0, -3f, new Item.Properties().group(SuperDuperCreativeTabItemGroup.tab)) {
-
 		}.setRegistryName("retro_hoe"));
 	}
-
 }
