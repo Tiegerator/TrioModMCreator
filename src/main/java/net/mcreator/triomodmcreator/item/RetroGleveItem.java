@@ -17,7 +17,7 @@ public class RetroGleveItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_gleve")
 	public static final Item block = null;
 	public RetroGleveItem(TriomodmcreatorModElements instance) {
-		super(instance, 21);
+		super(instance, 16);
 	}
 
 	@Override

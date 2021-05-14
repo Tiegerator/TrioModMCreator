@@ -23,7 +23,7 @@ public class HaraldiumBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:haraldium")
 	public static final Block block = null;
 	public HaraldiumBlock(TriomodmcreatorModElements instance) {
-		super(instance, 5);
+		super(instance, 10);
 	}
 
 	@Override

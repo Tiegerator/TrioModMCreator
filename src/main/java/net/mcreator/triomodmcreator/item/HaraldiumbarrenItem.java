@@ -22,7 +22,7 @@ public class HaraldiumbarrenItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:haraldiumbarren")
 	public static final Item block = null;
 	public HaraldiumbarrenItem(TriomodmcreatorModElements instance) {
-		super(instance, 6);
+		super(instance, 22);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class Retrocolor3Block extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retrocolor_3")
 	public static final Block block = null;
 	public Retrocolor3Block(TriomodmcreatorModElements instance) {
-		super(instance, 31);
+		super(instance, 24);
 	}
 
 	@Override
