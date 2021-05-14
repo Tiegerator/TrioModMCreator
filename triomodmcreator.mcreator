@@ -716,6 +716,60 @@
       "ids": {},
       "registry_name": "rec_retro_helmet",
       "path": "~/Recipes"
+    },
+    {
+      "name": "SanganCard",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sangan_card",
+      "path": "~/Items"
+    },
+    {
+      "name": "SanganCardWennMitDerRechtenMaustasteAufEinenBlockGeklicktWurde",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sangan_card_wenn_mit_der_rechten_maustaste_auf_einen_block_geklickt_wurde",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Sangan",
+      "type": "mob",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sangan",
+      "path": "~/Entity"
     }
   ],
   "variable_elements": [],
@@ -817,6 +871,10 @@
       },
       {
         "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Procedures",
         "children": []
       },
       {
