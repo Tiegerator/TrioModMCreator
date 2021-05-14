@@ -24,7 +24,7 @@ public class BlatterABlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:blatter_a")
 	public static final Block block = null;
 	public BlatterABlock(TriomodmcreatorModElements instance) {
-		super(instance, 9);
+		super(instance, 4);
 	}
 
 	@Override

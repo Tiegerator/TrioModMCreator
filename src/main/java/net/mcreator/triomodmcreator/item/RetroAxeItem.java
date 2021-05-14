@@ -17,7 +17,7 @@ public class RetroAxeItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_axe")
 	public static final Item block = null;
 	public RetroAxeItem(TriomodmcreatorModElements instance) {
-		super(instance, 25);
+		super(instance, 29);
 	}
 
 	@Override

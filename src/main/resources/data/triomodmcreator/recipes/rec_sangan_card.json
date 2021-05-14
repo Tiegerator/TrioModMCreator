@@ -1,0 +1,42 @@
+{
+  "group": "triomodmcreator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brown_dye"
+    },
+    "1": {
+      "item": "minecraft:netherrack"
+    },
+    "2": {
+      "item": "minecraft:black_dye"
+    },
+    "3": {
+      "item": "minecraft:netherrack"
+    },
+    "4": {
+      "item": "triomodmcreator:blank_card"
+    },
+    "5": {
+      "item": "minecraft:netherrack"
+    },
+    "6": {
+      "item": "minecraft:black_dye"
+    },
+    "7": {
+      "item": "minecraft:netherrack"
+    },
+    "8": {
+      "item": "minecraft:brown_dye"
+    }
+  },
+  "result": {
+    "item": "triomodmcreator:sangan_card",
+    "count": 1
+  }
+}

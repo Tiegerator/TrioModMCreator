@@ -17,7 +17,7 @@ public class RetroPickaxeItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_pickaxe")
 	public static final Item block = null;
 	public RetroPickaxeItem(TriomodmcreatorModElements instance) {
-		super(instance, 24);
+		super(instance, 28);
 	}
 
 	@Override

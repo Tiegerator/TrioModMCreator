@@ -17,7 +17,7 @@ public class RetroHammerItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_hammer")
 	public static final Item block = null;
 	public RetroHammerItem(TriomodmcreatorModElements instance) {
-		super(instance, 63);
+		super(instance, 25);
 	}
 
 	@Override

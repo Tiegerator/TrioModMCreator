@@ -47,7 +47,7 @@ public class RetroOreBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_ore")
 	public static final Block block = null;
 	public RetroOreBlock(TriomodmcreatorModElements instance) {
-		super(instance, 8);
+		super(instance, 18);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

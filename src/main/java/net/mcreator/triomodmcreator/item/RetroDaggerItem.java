@@ -17,7 +17,7 @@ public class RetroDaggerItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_dagger")
 	public static final Item block = null;
 	public RetroDaggerItem(TriomodmcreatorModElements instance) {
-		super(instance, 23);
+		super(instance, 24);
 	}
 
 	@Override

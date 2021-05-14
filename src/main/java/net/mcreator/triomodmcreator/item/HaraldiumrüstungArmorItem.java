@@ -29,7 +29,7 @@ public class HaraldiumrüstungArmorItem extends TriomodmcreatorModElements.ModEle
 	@ObjectHolder("triomodmcreator:haraldiumrustung_armor_boots")
 	public static final Item boots = null;
 	public HaraldiumrüstungArmorItem(TriomodmcreatorModElements instance) {
-		super(instance, 30);
+		super(instance, 9);
 	}
 
 	@Override

@@ -29,7 +29,7 @@ public class RetroArmorItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_armor_boots")
 	public static final Item boots = null;
 	public RetroArmorItem(TriomodmcreatorModElements instance) {
-		super(instance, 28);
+		super(instance, 32);
 	}
 
 	@Override

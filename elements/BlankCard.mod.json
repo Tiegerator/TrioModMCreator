@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "haraldium",
+    "texture": "blankcard",
     "customModelName": "Normal",
-    "name": "Haraldiumbarren",
+    "name": "Blank Card",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:SuperDuperCreativeTab"
@@ -24,9 +24,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "The Allmighty Ingot (epic music)!!!"
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
