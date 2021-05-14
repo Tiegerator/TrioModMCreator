@@ -24,7 +24,7 @@
     {
       "name": "LogBlocks",
       "type": "tag",
-      "sortid": 35,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -63,7 +63,7 @@
     {
       "name": "LeaveBlocks",
       "type": "tag",
-      "sortid": 36,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -82,7 +82,7 @@
     {
       "name": "DirtBlocks",
       "type": "tag",
-      "sortid": 37,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -101,7 +101,7 @@
     {
       "name": "SuperDuperCreativeTab",
       "type": "tab",
-      "sortid": 38,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "RecRlToRp",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -140,7 +140,7 @@
     {
       "name": "PlankItems",
       "type": "tag",
-      "sortid": 40,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -159,7 +159,7 @@
     {
       "name": "RecRetroGleve",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -169,7 +169,7 @@
     {
       "name": "RecRpStick",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -179,7 +179,7 @@
     {
       "name": "RecRpWorkbench",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -189,7 +189,7 @@
     {
       "name": "RecRpChest",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -229,7 +229,7 @@
     {
       "name": "RetroBiom",
       "type": "biome",
-      "sortid": 45,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -249,7 +249,7 @@
     {
       "name": "RetroColor1",
       "type": "block",
-      "sortid": 29,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -259,7 +259,7 @@
     {
       "name": "RecRpStairs",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -269,7 +269,7 @@
     {
       "name": "RetroColor2",
       "type": "block",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -279,7 +279,7 @@
     {
       "name": "Retrocolor4",
       "type": "block",
-      "sortid": 32,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -289,7 +289,7 @@
     {
       "name": "Retrocolor3",
       "type": "block",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -299,7 +299,7 @@
     {
       "name": "RecRpStairs2",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -309,7 +309,7 @@
     {
       "name": "ValidSpawnBlocks",
       "type": "tag",
-      "sortid": 48,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -328,7 +328,7 @@
     {
       "name": "Gameboy",
       "type": "mob",
-      "sortid": 33,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -358,7 +358,7 @@
     {
       "name": "RetroArmor",
       "type": "armor",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -374,7 +374,7 @@
     {
       "name": "RecShoe",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -384,7 +384,7 @@
     {
       "name": "RecLeggings",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -394,7 +394,7 @@
     {
       "name": "RecRetroHelmet",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -404,7 +404,7 @@
     {
       "name": "RecRetroChestplate",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -444,7 +444,7 @@
     {
       "name": "RecRpSlabs",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -454,7 +454,7 @@
     {
       "name": "RecRpSlabs2",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -464,7 +464,7 @@
     {
       "name": "RecRpSlabs3",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -474,7 +474,7 @@
     {
       "name": "GameboyItem",
       "type": "item",
-      "sortid": 34,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -494,7 +494,7 @@
     {
       "name": "RecRetroKatana",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -514,7 +514,7 @@
     {
       "name": "RecRetroDagger",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -524,7 +524,7 @@
     {
       "name": "RetroPickaxe",
       "type": "tool",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -534,7 +534,7 @@
     {
       "name": "RetroAxe",
       "type": "tool",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -554,7 +554,7 @@
     {
       "name": "RetroShovel",
       "type": "tool",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -564,7 +564,7 @@
     {
       "name": "RetroHoe",
       "type": "tool",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -574,7 +574,7 @@
     {
       "name": "RetroPickaxeRecipe",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -584,7 +584,7 @@
     {
       "name": "RetroAxeRecipe",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -594,7 +594,7 @@
     {
       "name": "RetroSwordRecipe",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -604,7 +604,7 @@
     {
       "name": "RetroShovelRecipe",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -614,7 +614,7 @@
     {
       "name": "RetroHoeRecipe",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -624,7 +624,7 @@
     {
       "name": "RetroHammer",
       "type": "tool",
-      "sortid": 63,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -640,6 +640,60 @@
       "ids": {},
       "registry_name": "rec_retro_hammer",
       "path": "~/Recipes"
+    },
+    {
+      "name": "SanganCard",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sangan_card",
+      "path": "~/Items"
+    },
+    {
+      "name": "Sangan",
+      "type": "mob",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sangan",
+      "path": "~/Entity"
+    },
+    {
+      "name": "SanganCardWennMitDerRechtenMaustasteAufEinenBlockGeklicktWurde",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sangan_card_wenn_mit_der_rechten_maustaste_auf_einen_block_geklickt_wurde",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
@@ -672,8 +726,8 @@
   "language_map": {
     "en_us": {
       "block.triomodmcreator.retro_planks": "Retro Planks",
-      "item.triomodmcreator.retro_hoe": "Retro Hoe",
       "item.triomodmcreator.retro_gleve": "Retro Gleve",
+      "item.triomodmcreator.retro_hoe": "Retro Hoe",
       "block.triomodmcreator.blue_leaave": "Retro Leave",
       "block.triomodmcreator.retrocolor_4": "Retrocolor 4",
       "block.triomodmcreator.retrocolor_3": "Retrocolor 3",
@@ -681,6 +735,8 @@
       "item.triomodmcreator.h_araldschwert": "Haraldschwert",
       "item.triomodmcreator.retro_hammer": "Retro Hammer",
       "item.triomodmcreator.gameboy_spawn_egg": "Gameboy Robot Spawn Egg",
+      "item.triomodmcreator.sangan_spawn_egg": "Sangan Spawn Egg",
+      "item.triomodmcreator.sangan_card": "Sangan Card",
       "block.triomodmcreator.retro_ore": "Retro Ore",
       "item.triomodmcreator.retro_shovel": "Retro Shovel",
       "entity.triomodmcreator.gameboy": "Gameboy Robot",
@@ -698,6 +754,7 @@
       "item.triomodmcreator.retro_armor_leggings": "Retro Leggings",
       "item.triomodmcreator.retro_dagger": "Retro Dagger",
       "block.triomodmcreator.retro_color_2": "Retro Color 2",
+      "entity.triomodmcreator.sangan": "Sangan",
       "block.triomodmcreator.retro_color_1": "Retro Color 1",
       "item.triomodmcreator.retro_armor_helmet": "Retro Helm",
       "block.triomodmcreator.retro_planks_slab": "Retro Planks Slab",
@@ -748,6 +805,10 @@
       },
       {
         "name": "Entity",
+        "children": []
+      },
+      {
+        "name": "Procedures",
         "children": []
       }
     ]
