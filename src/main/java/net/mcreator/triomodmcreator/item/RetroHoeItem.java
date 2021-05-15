@@ -17,7 +17,7 @@ public class RetroHoeItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_hoe")
 	public static final Item block = null;
 	public RetroHoeItem(TriomodmcreatorModElements instance) {
-		super(instance, 31);
+		super(instance, 35);
 	}
 
 	@Override

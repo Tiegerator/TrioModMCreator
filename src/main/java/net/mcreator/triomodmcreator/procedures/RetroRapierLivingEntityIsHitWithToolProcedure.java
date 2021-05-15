@@ -12,7 +12,7 @@ import java.util.Map;
 @TriomodmcreatorModElements.ModElement.Tag
 public class RetroRapierLivingEntityIsHitWithToolProcedure extends TriomodmcreatorModElements.ModElement {
 	public RetroRapierLivingEntityIsHitWithToolProcedure(TriomodmcreatorModElements instance) {
-		super(instance, 81);
+		super(instance, 82);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

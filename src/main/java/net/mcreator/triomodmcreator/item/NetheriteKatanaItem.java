@@ -18,7 +18,7 @@ public class NetheriteKatanaItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:netherite_katana")
 	public static final Item block = null;
 	public NetheriteKatanaItem(TriomodmcreatorModElements instance) {
-		super(instance, 45);
+		super(instance, 46);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class NetheriteKatanaItem extends TriomodmcreatorModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {

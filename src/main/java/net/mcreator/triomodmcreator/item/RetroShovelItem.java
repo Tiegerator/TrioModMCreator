@@ -17,7 +17,7 @@ public class RetroShovelItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_shovel")
 	public static final Item block = null;
 	public RetroShovelItem(TriomodmcreatorModElements instance) {
-		super(instance, 30);
+		super(instance, 34);
 	}
 
 	@Override

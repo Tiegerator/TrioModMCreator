@@ -18,7 +18,7 @@ public class IronKatanaItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:iron_katana")
 	public static final Item block = null;
 	public IronKatanaItem(TriomodmcreatorModElements instance) {
-		super(instance, 43);
+		super(instance, 44);
 	}
 
 	@Override

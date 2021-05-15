@@ -27,7 +27,7 @@ public class RetroRapierItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_rapier")
 	public static final Item block = null;
 	public RetroRapierItem(TriomodmcreatorModElements instance) {
-		super(instance, 26);
+		super(instance, 30);
 	}
 
 	@Override

@@ -1,0 +1,26 @@
+{
+  "group": "triomodmcreator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "triomodmcreator:haraldiumbarren"
+    },
+    "2": {
+      "item": "triomodmcreator:haraldiumbarren"
+    },
+    "3": {
+      "item": "triomodmcreator:haraldiumbarren"
+    },
+    "5": {
+      "item": "triomodmcreator:haraldiumbarren"
+    }
+  },
+  "result": {
+    "item": "triomodmcreator:haraldiumrustung_armor_boots",
+    "count": 1
+  }
+}

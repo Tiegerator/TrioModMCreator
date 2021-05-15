@@ -29,7 +29,7 @@ public class RetroArmorItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_armor_boots")
 	public static final Item boots = null;
 	public RetroArmorItem(TriomodmcreatorModElements instance) {
-		super(instance, 32);
+		super(instance, 36);
 	}
 
 	@Override
@@ -42,7 +42,7 @@ public class RetroArmorItem extends TriomodmcreatorModElements.ModElement {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{4, 8, 10, 5}[slot.getIndex()];
 			}
 
 			@Override
@@ -68,7 +68,7 @@ public class RetroArmorItem extends TriomodmcreatorModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 4f;
 			}
 
 			@Override

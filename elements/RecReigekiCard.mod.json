@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.DYE#2"
       },
       {
-        "value": ""
+        "value": "Items.REDSTONE"
       },
       {
-        "value": ""
+        "value": "Items.DYE#10"
       },
       {
-        "value": "CUSTOM:Haraldiumbarren"
+        "value": "Items.FLINT_AND_STEEL"
       },
       {
-        "value": "CUSTOM:Haraldiumbarren"
+        "value": "CUSTOM:BlankCard"
       },
       {
-        "value": "CUSTOM:Haraldiumbarren"
+        "value": "Items.FLINT_AND_STEEL"
       },
       {
-        "value": "CUSTOM:Haraldiumbarren"
+        "value": "Items.DYE#10"
       },
       {
-        "value": ""
+        "value": "Items.REDSTONE"
       },
       {
-        "value": "CUSTOM:Haraldiumbarren"
+        "value": "Items.DYE#2"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:HaraldiumrüstungArmor.helmet"
+      "value": "CUSTOM:Reigeki"
     },
-    "name": "haraldiumrustung_armor_helmet_recipe",
+    "name": "rec_reigeki_card",
     "namespace": "mod"
   }
 }

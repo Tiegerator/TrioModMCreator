@@ -1,0 +1,36 @@
+{
+  "group": "triomodmcreator",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "triomodmcreator:haraldiumbarren"
+    },
+    "1": {
+      "item": "triomodmcreator:haraldiumbarren"
+    },
+    "2": {
+      "item": "triomodmcreator:haraldiumbarren"
+    },
+    "3": {
+      "item": "triomodmcreator:haraldiumbarren"
+    },
+    "5": {
+      "item": "triomodmcreator:haraldiumbarren"
+    },
+    "6": {
+      "item": "triomodmcreator:haraldiumbarren"
+    },
+    "8": {
+      "item": "triomodmcreator:haraldiumbarren"
+    }
+  },
+  "result": {
+    "item": "triomodmcreator:haraldiumrustung_armor_leggings",
+    "count": 1
+  }
+}

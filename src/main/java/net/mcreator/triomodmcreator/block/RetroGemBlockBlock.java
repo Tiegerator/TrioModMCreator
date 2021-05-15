@@ -24,7 +24,7 @@ public class RetroGemBlockBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_gem_block")
 	public static final Block block = null;
 	public RetroGemBlockBlock(TriomodmcreatorModElements instance) {
-		super(instance, 20);
+		super(instance, 24);
 	}
 
 	@Override

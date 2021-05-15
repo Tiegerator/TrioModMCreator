@@ -61,7 +61,7 @@ import com.google.common.collect.ImmutableList;
 public class RetroBiomBiome extends TriomodmcreatorModElements.ModElement {
 	public static Biome biome;
 	public RetroBiomBiome(TriomodmcreatorModElements instance) {
-		super(instance, 56);
+		super(instance, 57);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

@@ -43,7 +43,7 @@ public class RetroShurikenItem extends TriomodmcreatorModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletretro_shuriken").setRegistryName("entitybulletretro_shuriken");
 	public RetroShurikenItem(TriomodmcreatorModElements instance) {
-		super(instance, 27);
+		super(instance, 31);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RetroShurikenRenderer.ModelRegisterHandler());
 	}
 

@@ -18,7 +18,7 @@ public class DiamondKatanaItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:diamond_katana")
 	public static final Item block = null;
 	public DiamondKatanaItem(TriomodmcreatorModElements instance) {
-		super(instance, 44);
+		super(instance, 45);
 	}
 
 	@Override

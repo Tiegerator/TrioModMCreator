@@ -18,7 +18,7 @@ public class StoneKatanaItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:stone_katana")
 	public static final Item block = null;
 	public StoneKatanaItem(TriomodmcreatorModElements instance) {
-		super(instance, 42);
+		super(instance, 43);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class StoneKatanaItem extends TriomodmcreatorModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 0f;
 			}
 
 			public int getHarvestLevel() {
