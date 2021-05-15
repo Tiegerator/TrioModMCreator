@@ -1,19 +1,11 @@
 
 package net.mcreator.triomodmcreator.itemgroup;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-
-import net.mcreator.triomodmcreator.block.DreckABlock;
-import net.mcreator.triomodmcreator.TriomodmcreatorModElements;
-
 @TriomodmcreatorModElements.ModElement.Tag
 public class SuperDuperCreativeTabItemGroup extends TriomodmcreatorModElements.ModElement {
+
 	public SuperDuperCreativeTabItemGroup(TriomodmcreatorModElements instance) {
-		super(instance, 50);
+		super(instance, 49);
 	}
 
 	@Override
@@ -31,5 +23,7 @@ public class SuperDuperCreativeTabItemGroup extends TriomodmcreatorModElements.M
 			}
 		}.setBackgroundImageName("item_search.png");
 	}
+
 	public static ItemGroup tab;
+
 }

@@ -1,23 +1,14 @@
 
 package net.mcreator.triomodmcreator.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.triomodmcreator.itemgroup.SuperDuperCreativeTabItemGroup;
-import net.mcreator.triomodmcreator.TriomodmcreatorModElements;
-
 @TriomodmcreatorModElements.ModElement.Tag
 public class RetroDaggerItem extends TriomodmcreatorModElements.ModElement {
+
 	@ObjectHolder("triomodmcreator:retro_dagger")
 	public static final Item block = null;
+
 	public RetroDaggerItem(TriomodmcreatorModElements instance) {
-		super(instance, 28);
+		super(instance, 24);
 	}
 
 	@Override
@@ -47,6 +38,8 @@ public class RetroDaggerItem extends TriomodmcreatorModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(RetroGemItem.block, (int) (1)));
 			}
 		}, 3, -2f, new Item.Properties().group(SuperDuperCreativeTabItemGroup.tab)) {
+
 		}.setRegistryName("retro_dagger"));
 	}
+
 }
