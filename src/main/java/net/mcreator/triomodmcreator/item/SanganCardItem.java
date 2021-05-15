@@ -26,7 +26,7 @@ public class SanganCardItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:sangan_card")
 	public static final Item block = null;
 	public SanganCardItem(TriomodmcreatorModElements instance) {
-		super(instance, 65);
+		super(instance, 40);
 	}
 
 	@Override
@@ -67,6 +67,7 @@ public class SanganCardItem extends TriomodmcreatorModElements.ModElement {
 			ItemStack itemstack = context.getItem();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
 				$_dependencies.put("itemstack", itemstack);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);

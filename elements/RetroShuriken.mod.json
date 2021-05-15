@@ -1,0 +1,37 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "retroshuriken",
+    "customModelName": "Normal",
+    "name": "Retro Shuriken",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SuperDuperCreativeTab"
+    },
+    "stackSize": 64,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 333,
+    "actionSound": {
+      "value": "block.metal.hit"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 2.5,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:RetroShuriken"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

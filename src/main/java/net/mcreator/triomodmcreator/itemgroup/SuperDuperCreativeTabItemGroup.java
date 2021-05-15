@@ -13,7 +13,7 @@ import net.mcreator.triomodmcreator.TriomodmcreatorModElements;
 @TriomodmcreatorModElements.ModElement.Tag
 public class SuperDuperCreativeTabItemGroup extends TriomodmcreatorModElements.ModElement {
 	public SuperDuperCreativeTabItemGroup(TriomodmcreatorModElements instance) {
-		super(instance, 13);
+		super(instance, 49);
 	}
 
 	@Override

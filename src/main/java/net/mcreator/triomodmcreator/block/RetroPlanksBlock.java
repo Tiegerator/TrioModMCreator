@@ -27,7 +27,7 @@ public class RetroPlanksBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_planks")
 	public static final Block block = null;
 	public RetroPlanksBlock(TriomodmcreatorModElements instance) {
-		super(instance, 6);
+		super(instance, 14);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class RetroGemItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:retro_gem")
 	public static final Item block = null;
 	public RetroGemItem(TriomodmcreatorModElements instance) {
-		super(instance, 9);
+		super(instance, 19);
 	}
 
 	@Override

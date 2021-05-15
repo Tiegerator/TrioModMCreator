@@ -45,7 +45,7 @@ public class HaraldEntity extends TriomodmcreatorModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
 			.size(0.6f, 1.8f)).build("harald").setRegistryName("harald");
 	public HaraldEntity(TriomodmcreatorModElements instance) {
-		super(instance, 29);
+		super(instance, 10);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HaraldRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

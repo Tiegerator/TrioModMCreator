@@ -23,7 +23,7 @@ public class BaumABlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:baum_a")
 	public static final Block block = null;
 	public BaumABlock(TriomodmcreatorModElements instance) {
-		super(instance, 9);
+		super(instance, 3);
 	}
 
 	@Override

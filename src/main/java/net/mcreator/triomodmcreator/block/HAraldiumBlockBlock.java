@@ -23,7 +23,7 @@ public class HAraldiumBlockBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:h_araldium_block")
 	public static final Block block = null;
 	public HAraldiumBlockBlock(TriomodmcreatorModElements instance) {
-		super(instance, 23);
+		super(instance, 7);
 	}
 
 	@Override

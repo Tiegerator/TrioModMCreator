@@ -28,7 +28,7 @@ public class BlueLeaaveBlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:blue_leaave")
 	public static final Block block = null;
 	public BlueLeaaveBlock(TriomodmcreatorModElements instance) {
-		super(instance, 2);
+		super(instance, 17);
 	}
 
 	@Override

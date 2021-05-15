@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#17"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "CUSTOM:BlankCard"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Items.DYE#17"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SanganCard"
+    },
+    "name": "rec_sangan_card",
+    "namespace": "mod"
+  }
+}

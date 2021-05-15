@@ -23,7 +23,7 @@ public class DreckABlock extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:dreck_a")
 	public static final Block block = null;
 	public DreckABlock(TriomodmcreatorModElements instance) {
-		super(instance, 2);
+		super(instance, 1);
 	}
 
 	@Override

@@ -22,7 +22,7 @@ public class HaraldiumbarrenItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:haraldiumbarren")
 	public static final Item block = null;
 	public HaraldiumbarrenItem(TriomodmcreatorModElements instance) {
-		super(instance, 22);
+		super(instance, 6);
 	}
 
 	@Override
@@ -53,7 +53,7 @@ public class HaraldiumbarrenItem extends TriomodmcreatorModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Der allm\u00E4chtige Barren (epische Musik)!!!"));
+			list.add(new StringTextComponent("The Allmighty Ingot (epic music)!!!"));
 		}
 	}
 }

@@ -780,6 +780,178 @@
       "ids": {},
       "registry_name": "harald_axe",
       "path": "~/Tools"
+    },
+    {
+      "name": "RecSanganCard",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_sangan_card",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroRapierLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_rapier_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RetroShuriken",
+      "type": "gun",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_shuriken",
+      "path": "~/Swords"
+    },
+    {
+      "name": "StoneKatana",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_katana",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RecRetroShuriken",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_shuriken",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecIronKatana",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_iron_katana",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecStoneKatana",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_stone_katana",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecDiamondKatana",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_diamond_katana",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NetheriteKatana",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_katana",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RecBlankCard",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_blank_card",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DiamondKatana",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_katana",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RecNetheriteKatana",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_netherite_katana",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroRapier",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_rapier",
+      "path": "~/Swords"
+    },
+    {
+      "name": "BlankCard",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blank_card",
+      "path": "~/Items"
+    },
+    {
+      "name": "RecRetroRapier",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_rapier",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IronKatana",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_katana",
+      "path": "~/Swords"
     }
   ],
   "variable_elements": [],
@@ -901,6 +1073,10 @@
       },
       {
         "name": "Swords",
+        "children": []
+      },
+      {
+        "name": "Gui",
         "children": []
       },
       {
