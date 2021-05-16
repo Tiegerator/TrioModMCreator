@@ -12,19 +12,19 @@ import net.minecraft.client.renderer.entity.model.BipedModel;
 import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
 import net.minecraft.client.renderer.entity.BipedRenderer;
 
-import net.mcreator.triomodmcreator.entity.HaraldEntity;
+import net.mcreator.triomodmcreator.entity.YamiYugiEntity;
 
 @OnlyIn(Dist.CLIENT)
-public class HaraldRenderer {
+public class YamiYugiRenderer {
 	public static class ModelRegisterHandler {
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
 		public void registerModels(ModelRegistryEvent event) {
-			RenderingRegistry.registerEntityRenderingHandler(HaraldEntity.entity, renderManager -> {
+			RenderingRegistry.registerEntityRenderingHandler(YamiYugiEntity.entity, renderManager -> {
 				BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("triomodmcreator:textures/haraldos.png");
+						return new ResourceLocation("triomodmcreator:textures/yami_yugi.png");
 					}
 				};
 				customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));

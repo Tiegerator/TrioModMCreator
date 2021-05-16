@@ -5,7 +5,7 @@
     "mobName": "Harald",
     "mobLabel": "Der unbesiegbare Harald ",
     "mobModelName": "Biped",
-    "mobModelTexture": "face.png",
+    "mobModelTexture": "haraldos.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,

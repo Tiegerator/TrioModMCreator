@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 3,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "Items.PAPER"
+        "value": "Blocks.GOLD_BLOCK"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.PAPER"
+        "value": "Items.GOLD_INGOT"
       },
       {
-        "value": "Items.SKULL"
+        "value": "Items.ENDER_EYE"
       },
       {
-        "value": "Items.PAPER"
+        "value": "Items.GOLD_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.PAPER"
+        "value": "Items.GOLD_INGOT"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BlankCard"
+      "value": "CUSTOM:MilleniumsPuzzle"
     },
-    "name": "rec_blank_card",
+    "name": "rec_mill_puzzle",
     "namespace": "mod"
   }
 }

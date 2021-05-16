@@ -849,16 +849,6 @@
       "path": "~/Items"
     },
     {
-      "name": "RecBlankCard",
-      "type": "recipe",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rec_blank_card",
-      "path": "~/Recipes"
-    },
-    {
       "name": "RecSanganCard",
       "type": "recipe",
       "sortid": 93,
@@ -1229,6 +1219,109 @@
       "ids": {},
       "registry_name": "rec_netherite_rapier",
       "path": "~/Recipes"
+    },
+    {
+      "name": "YamiYugi",
+      "type": "mob",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yami_yugi",
+      "path": "~/Entity"
+    },
+    {
+      "name": "LTYamiYugi",
+      "type": "loottable",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lt_yami_yugi"
+    },
+    {
+      "name": "YamiYugiEntityIsHurt",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yami_yugi_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MilleniumsPuzzle",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milleniums_puzzle",
+      "path": "~/Items"
+    },
+    {
+      "name": "RecMillPuzzle",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_mill_puzzle",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MilleniumsPuzzleRightClickedInAir",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milleniums_puzzle_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
@@ -1269,6 +1362,7 @@
   "language_map": {
     "en_us": {
       "item.triomodmcreator.retro_gleve": "Retro Gleve",
+      "item.triomodmcreator.yami_yugi_spawn_egg": "Yami Yugi Spawn Egg",
       "block.triomodmcreator.blue_leaave": "Retro Leave",
       "entity.triomodmcreator.harald": "Harald",
       "item.triomodmcreator.retro_rapier": "Retro Rapier",
@@ -1302,6 +1396,8 @@
       "item.triomodmcreator.retro_axe": "Retro Axe",
       "block.triomodmcreator.haraldium": "Haraldium",
       "block.triomodmcreator.retro_planks_fence_gate": "Retro Planks Fence Gate",
+      "entity.triomodmcreator.yami_yugi": "Yami Yugi",
+      "item.triomodmcreator.milleniums_puzzle": "Milleniums Puzzle",
       "block.triomodmcreator.h_araldium_block": "Haraldium Block",
       "block.triomodmcreator.retro_planks_stairs": "Retro Planks Stairs",
       "item.triomodmcreator.haraldiumbarren": "Haraldiumbarren",
