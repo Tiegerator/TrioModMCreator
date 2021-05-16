@@ -16,7 +16,7 @@ public class GameboyItemItem extends TriomodmcreatorModElements.ModElement {
 	@ObjectHolder("triomodmcreator:gameboy_item")
 	public static final Item block = null;
 	public GameboyItemItem(TriomodmcreatorModElements instance) {
-		super(instance, 38);
+		super(instance, 40);
 	}
 
 	@Override

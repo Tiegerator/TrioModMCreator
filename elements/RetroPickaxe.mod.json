@@ -11,11 +11,11 @@
       "value": "CUSTOM:SuperDuperCreativeTab"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 3,
+    "harvestLevel": 4,
     "efficiency": 8.0,
     "attackSpeed": 1.0,
     "enchantability": 14,
-    "damageVsEntity": 2.0,
+    "damageVsEntity": 5.0,
     "usageCount": 5600,
     "blocksAffected": [],
     "hasGlow": false,

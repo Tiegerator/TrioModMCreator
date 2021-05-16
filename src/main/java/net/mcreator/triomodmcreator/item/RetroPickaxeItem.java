@@ -1,14 +1,23 @@
 
 package net.mcreator.triomodmcreator.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.triomodmcreator.itemgroup.SuperDuperCreativeTabItemGroup;
+import net.mcreator.triomodmcreator.TriomodmcreatorModElements;
+
 @TriomodmcreatorModElements.ModElement.Tag
 public class RetroPickaxeItem extends TriomodmcreatorModElements.ModElement {
-
 	@ObjectHolder("triomodmcreator:retro_pickaxe")
 	public static final Item block = null;
-
 	public RetroPickaxeItem(TriomodmcreatorModElements instance) {
-		super(instance, 28);
+		super(instance, 33);
 	}
 
 	@Override
@@ -23,11 +32,11 @@ public class RetroPickaxeItem extends TriomodmcreatorModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
-				return 3;
+				return 4;
 			}
 
 			public int getEnchantability() {
@@ -38,8 +47,6 @@ public class RetroPickaxeItem extends TriomodmcreatorModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(RetroGemItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(SuperDuperCreativeTabItemGroup.tab)) {
-
 		}.setRegistryName("retro_pickaxe"));
 	}
-
 }

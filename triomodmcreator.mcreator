@@ -24,7 +24,7 @@
     {
       "name": "LogBlocks",
       "type": "tag",
-      "sortid": 46,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -43,7 +43,7 @@
     {
       "name": "BlueLeaave",
       "type": "block",
-      "sortid": 17,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -63,7 +63,7 @@
     {
       "name": "LeaveBlocks",
       "type": "tag",
-      "sortid": 47,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -82,7 +82,7 @@
     {
       "name": "DirtBlocks",
       "type": "tag",
-      "sortid": 48,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -91,7 +91,7 @@
     {
       "name": "RetroGem",
       "type": "item",
-      "sortid": 19,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -101,7 +101,7 @@
     {
       "name": "SuperDuperCreativeTab",
       "type": "tab",
-      "sortid": 49,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -110,7 +110,7 @@
     {
       "name": "RetroOre",
       "type": "block",
-      "sortid": 18,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "RecRlToRp",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -140,7 +140,7 @@
     {
       "name": "PlankItems",
       "type": "tag",
-      "sortid": 51,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -149,7 +149,7 @@
     {
       "name": "RetroGleve",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -159,7 +159,7 @@
     {
       "name": "RecRetroGleve",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -169,7 +169,7 @@
     {
       "name": "RecRpStick",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -179,7 +179,7 @@
     {
       "name": "RecRpWorkbench",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -189,7 +189,7 @@
     {
       "name": "RecRpChest",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -229,7 +229,7 @@
     {
       "name": "RetroBiom",
       "type": "biome",
-      "sortid": 56,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -249,7 +249,7 @@
     {
       "name": "RetroColor1",
       "type": "block",
-      "sortid": 18,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -259,7 +259,7 @@
     {
       "name": "RecRpStairs",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -269,7 +269,7 @@
     {
       "name": "RetroColor2",
       "type": "block",
-      "sortid": 19,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -279,7 +279,7 @@
     {
       "name": "Retrocolor4",
       "type": "block",
-      "sortid": 21,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -289,7 +289,7 @@
     {
       "name": "Retrocolor3",
       "type": "block",
-      "sortid": 20,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -299,7 +299,7 @@
     {
       "name": "RecRpStairs2",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -309,7 +309,7 @@
     {
       "name": "ValidSpawnBlocks",
       "type": "tag",
-      "sortid": 59,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -328,7 +328,7 @@
     {
       "name": "Gameboy",
       "type": "mob",
-      "sortid": 37,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -358,7 +358,7 @@
     {
       "name": "RetroArmor",
       "type": "armor",
-      "sortid": 32,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -374,7 +374,7 @@
     {
       "name": "RecShoe",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -384,7 +384,7 @@
     {
       "name": "RecLeggings",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -394,7 +394,7 @@
     {
       "name": "RecRetroHelmet",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -404,7 +404,7 @@
     {
       "name": "RecRetroChestplate",
       "type": "recipe",
-      "sortid": 63,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -424,7 +424,7 @@
     {
       "name": "RetroGemBlock",
       "type": "block",
-      "sortid": 20,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -444,7 +444,7 @@
     {
       "name": "RecRpSlabs",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -454,7 +454,7 @@
     {
       "name": "RecRpSlabs2",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -464,7 +464,7 @@
     {
       "name": "RecRpSlabs3",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -474,7 +474,7 @@
     {
       "name": "GameboyItem",
       "type": "item",
-      "sortid": 38,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -484,7 +484,7 @@
     {
       "name": "RetroKatana",
       "type": "tool",
-      "sortid": 23,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -494,7 +494,7 @@
     {
       "name": "RecRetroKatana",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -504,7 +504,7 @@
     {
       "name": "RetroDagger",
       "type": "tool",
-      "sortid": 24,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -514,7 +514,7 @@
     {
       "name": "RecRetroDagger",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -524,7 +524,7 @@
     {
       "name": "RetroPickaxe",
       "type": "tool",
-      "sortid": 28,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -534,7 +534,7 @@
     {
       "name": "RetroAxe",
       "type": "tool",
-      "sortid": 29,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -544,7 +544,7 @@
     {
       "name": "RetroSword",
       "type": "tool",
-      "sortid": 21,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -554,7 +554,7 @@
     {
       "name": "RetroShovel",
       "type": "tool",
-      "sortid": 30,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -564,7 +564,7 @@
     {
       "name": "RetroHoe",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -574,7 +574,7 @@
     {
       "name": "RetroPickaxeRecipe",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -584,7 +584,7 @@
     {
       "name": "RetroAxeRecipe",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -594,7 +594,7 @@
     {
       "name": "RetroSwordRecipe",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -604,7 +604,7 @@
     {
       "name": "RetroShovelRecipe",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -614,7 +614,7 @@
     {
       "name": "RetroHoeRecipe",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -624,7 +624,7 @@
     {
       "name": "RetroHammer",
       "type": "tool",
-      "sortid": 25,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -634,7 +634,7 @@
     {
       "name": "RecRetroHammer",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -644,7 +644,7 @@
     {
       "name": "SanganCard",
       "type": "item",
-      "sortid": 40,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -654,7 +654,7 @@
     {
       "name": "SanganCardWennMitDerRechtenMaustasteAufEinenBlockGeklicktWurde",
       "type": "procedure",
-      "sortid": 76,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -692,7 +692,7 @@
     {
       "name": "Sangan",
       "type": "mob",
-      "sortid": 42,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -702,7 +702,7 @@
     {
       "name": "HaraldiumrustungArmorHelmTickEreignis",
       "type": "procedure",
-      "sortid": 76,
+      "sortid": 84,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -723,42 +723,42 @@
     {
       "name": "HaraldiumrüstungArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "haraldiumrustung_armor_helmet_recipe",
-      "path": "~/Armor"
+      "path": "~/Recipes"
     },
     {
       "name": "HaraldiumrüstungArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "haraldiumrustung_armor_leggings_recipe",
-      "path": "~/Armor"
+      "path": "~/Recipes"
     },
     {
       "name": "HaraldiumrüstungArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "haraldiumrustung_armor_body_recipe",
-      "path": "~/Armor"
+      "path": "~/Recipes"
     },
     {
       "name": "HaraldiumrüstungArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "haraldiumrustung_armor_boots_recipe",
-      "path": "~/Armor"
+      "path": "~/Recipes"
     },
     {
       "name": "HaraldiumrüstungArmor",
@@ -779,7 +779,7 @@
     {
       "name": "RetroRapierLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 82,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -801,7 +801,7 @@
     {
       "name": "RetroShuriken",
       "type": "gun",
-      "sortid": 31,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -811,7 +811,7 @@
     {
       "name": "RetroRapier",
       "type": "tool",
-      "sortid": 26,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -821,7 +821,7 @@
     {
       "name": "RecRetroShuriken",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -831,7 +831,7 @@
     {
       "name": "RecRetroRapier",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -841,7 +841,7 @@
     {
       "name": "BlankCard",
       "type": "item",
-      "sortid": 39,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -851,7 +851,7 @@
     {
       "name": "RecBlankCard",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -861,7 +861,7 @@
     {
       "name": "RecSanganCard",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -871,7 +871,7 @@
     {
       "name": "IronKatana",
       "type": "tool",
-      "sortid": 43,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -881,7 +881,7 @@
     {
       "name": "RecIronKatana",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -891,7 +891,7 @@
     {
       "name": "StoneKatana",
       "type": "tool",
-      "sortid": 42,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -901,7 +901,7 @@
     {
       "name": "RecStoneKatana",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -911,7 +911,7 @@
     {
       "name": "DiamondKatana",
       "type": "tool",
-      "sortid": 44,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -921,7 +921,7 @@
     {
       "name": "NetheriteKatana",
       "type": "tool",
-      "sortid": 45,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -931,7 +931,7 @@
     {
       "name": "RecDiamondKatana",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -941,7 +941,7 @@
     {
       "name": "RecNetheriteKatana",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -951,7 +951,7 @@
     {
       "name": "ReigekiRightClickedInAir",
       "type": "procedure",
-      "sortid": 91,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -985,7 +985,7 @@
     {
       "name": "Reigeki",
       "type": "item",
-      "sortid": 41,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -995,7 +995,7 @@
     {
       "name": "RecReigekiCard",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1005,12 +1005,230 @@
     {
       "name": "HaraldAxe",
       "type": "tool",
-      "sortid": 68,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "harald_axe",
       "path": "~/Tools"
+    },
+    {
+      "name": "RetroPlanksFence",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_planks_fence",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RetroPlanksFenceGate",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retro_planks_fence_gate",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RecRetroPlanksFence",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_planks_fence",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecRetroPlanksFenceGate",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_retro_planks_fence_gate",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fence_blocks"
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_fence_blocks"
+    },
+    {
+      "name": "DiamondHammer",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_hammer",
+      "path": "~/Swords"
+    },
+    {
+      "name": "IronHammer",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_hammer",
+      "path": "~/Swords"
+    },
+    {
+      "name": "StoneHammer",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_hammer",
+      "path": "~/Swords"
+    },
+    {
+      "name": "NetheriteHammer",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_hammer",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RecStoneHammer",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_stone_hammer",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecIronHammer",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_iron_hammer",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecDiamondHammer",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_diamond_hammer",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecNetheriteHammer",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_netherite_hammer",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "StoneRapier",
+      "type": "tool",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_rapier",
+      "path": "~/Swords"
+    },
+    {
+      "name": "IronRapier",
+      "type": "tool",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_rapier",
+      "path": "~/Swords"
+    },
+    {
+      "name": "DiamondRapier",
+      "type": "tool",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_rapier",
+      "path": "~/Swords"
+    },
+    {
+      "name": "NetheriteRapier",
+      "type": "tool",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_rapier",
+      "path": "~/Swords"
+    },
+    {
+      "name": "RecStoneRapier",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_stone_rapier",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecIronRapier",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_iron_rapier",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecDiamondRapier",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_diamond_rapier",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecNetheriteRapier",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_netherite_rapier",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -1053,25 +1271,37 @@
       "item.triomodmcreator.retro_gleve": "Retro Gleve",
       "block.triomodmcreator.blue_leaave": "Retro Leave",
       "entity.triomodmcreator.harald": "Harald",
+      "item.triomodmcreator.retro_rapier": "Retro Rapier",
+      "item.triomodmcreator.stone_rapier": "Stone Rapier",
       "item.triomodmcreator.sangan_card": "Sangan Card",
+      "item.triomodmcreator.harald_axe": "Harald Axe",
+      "item.triomodmcreator.iron_rapier": "Iron Rapier",
       "item.triomodmcreator.retro_shovel": "Retro Shovel",
       "block.triomodmcreator.retro_ore": "Retro Ore",
       "entity.triomodmcreator.gameboy": "Gameboy Robot",
       "block.triomodmcreator.retro_gem_block": "Retro Gem Block",
+      "item.triomodmcreator.blank_card": "Blank Card",
+      "item.triomodmcreator.reigeki": "Reigeki",
+      "item.triomodmcreator.diamond_hammer": "Diamond Hammer",
+      "item.triomodmcreator.stone_katana": "Stone Katana",
       "item.triomodmcreator.retro_sword": "Retro Sword",
+      "item.triomodmcreator.netherite_rapier": "Netherite Rapier",
       "itemGroup.tabsuper_duper_creative_tab": "Super Duper Creative Tab",
       "block.triomodmcreator.blue_grass": "Retro Grass",
-      "item.triomodmcreator.retro_armor_boots": "Retro Shoe",
+      "item.triomodmcreator.retro_armor_boots": "Retro Boots",
       "item.triomodmcreator.retro_armor_leggings": "Retro Leggings",
+      "item.triomodmcreator.diamond_katana": "Diamond Katana",
       "item.triomodmcreator.retro_dagger": "Retro Dagger",
-      "block.triomodmcreator.retro_color_2": "Retro Color 2",
+      "block.triomodmcreator.retro_planks_fence": "Retro Planks Fence",
       "item.triomodmcreator.haraldiumrustung_armor_chestplate": "Haraldiumrüstung Chestplate",
+      "block.triomodmcreator.retro_color_2": "Retro Color 2",
       "block.triomodmcreator.retro_color_1": "Retro Color 1",
       "item.triomodmcreator.retro_armor_helmet": "Retro Helm",
       "item.triomodmcreator.retro_shuriken": "Retro Shuriken",
       "item.triomodmcreator.retro_pickaxe": "Retro Pickaxe",
       "item.triomodmcreator.retro_axe": "Retro Axe",
       "block.triomodmcreator.haraldium": "Haraldium",
+      "block.triomodmcreator.retro_planks_fence_gate": "Retro Planks Fence Gate",
       "block.triomodmcreator.h_araldium_block": "Haraldium Block",
       "block.triomodmcreator.retro_planks_stairs": "Retro Planks Stairs",
       "item.triomodmcreator.haraldiumbarren": "Haraldiumbarren",
@@ -1087,20 +1317,26 @@
       "item.triomodmcreator.gameboy_spawn_egg": "Gameboy Robot Spawn Egg",
       "item.triomodmcreator.sangan_spawn_egg": "Sangan Spawn Egg",
       "item.triomodmcreator.haraldiumrustung_armor_helmet": "Haraldiumrüstung Helmet",
+      "item.triomodmcreator.iron_hammer": "Iron Hammer",
+      "item.triomodmcreator.stone_hammer": "Stone Hammer",
       "block.triomodmcreator.dreck_a": "Dreck A",
       "biome.triomodmcreator.retro_biom": "Retro Biom",
       "item.triomodmcreator.gameboy_item": "Gameboy",
       "item.triomodmcreator.retro_armor_chestplate": "Retro Chestplate",
       "block.triomodmcreator.baum_a": "Baum A",
       "block.triomodmcreator.blue_dirt": "Retro Dirt",
+      "item.triomodmcreator.netherite_hammer": "Netherite Hammer",
       "entity.triomodmcreator.sangan": "Sangan",
       "block.triomodmcreator.retro_planks_slab": "Retro Planks Slab",
       "block.triomodmcreator.fickdich_m_creator": "Gras A",
       "block.triomodmcreator.blue_log": "Retro Log",
       "item.triomodmcreator.retro_gem": "Retro Gem",
       "item.triomodmcreator.harald_spawn_egg": "Harald Spawn Egg",
+      "item.triomodmcreator.netherite_katana": "Netherite Katana",
       "block.triomodmcreator.blatter_a": "Blatter A",
-      "item.triomodmcreator.retro_katana": "Retro Katana"
+      "item.triomodmcreator.retro_katana": "Retro Katana",
+      "item.triomodmcreator.diamond_rapier": "Diamond Rapier",
+      "item.triomodmcreator.iron_katana": "Iron Katana"
     }
   },
   "foldersRoot": {
